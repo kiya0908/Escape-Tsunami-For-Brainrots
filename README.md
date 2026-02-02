@@ -2,7 +2,7 @@
 
 > Escape Tsunami For Brainrots Wiki - Your ultimate resource for surviving the waves
 
-**网站地址：escapetsunamiforbrainrots.space**
+**网站地址：https://escapetsunamiforbrainrots.space**
 
 ETFB Wiki 是一个社区驱动的非官方知识库网站，专为 Roblox 游戏 "Escape Tsunami For Brainrots" 设计。无论是新手还是资深玩家，这里都能找到你需要的攻略、工具和资源。
 
