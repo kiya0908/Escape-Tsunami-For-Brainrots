@@ -1,33 +1,89 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "tailwindcss";
+
+@theme {
+  /* 注册自定义颜色供 Tailwind 使用 */
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-surfaceHighlight: var(--color-surface-highlight);
+  --color-neon-cyan: var(--color-neon-cyan);
+  --color-neon-purple: var(--color-neon-purple);
+  --color-neon-green: var(--color-neon-green);
+  --color-neon-danger: var(--color-neon-danger);
+  --color-text-main: var(--color-text-main);
+  --color-text-muted: var(--color-text-muted);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  /* 浅色模式 (默认) */
+  --color-background: #FAFBFC;
+  --color-surface: #FFFFFF;
+  --color-surface-highlight: #F0F4F8;
+  --color-text-main: #1A1F2E;
+  --color-text-muted: #5A6478;
+
+  /* 主色调 - 活力三色 */
+  --color-primary-orange: #FD7709;   /* RGB(253, 119, 9) - 主强调色 */
+  --color-primary-green: #58D10D;    /* RGB(88, 209, 13) - 成功/积极 */
+  --color-primary-blue: #08AAF7;     /* RGB(8, 170, 247) - 信息/链接 */
+  --color-neon-danger: #E63946;      /* 警告色 */
+
+  /* 兼容旧变量名 */
+  --color-neon-cyan: var(--color-primary-blue);
+  --color-neon-purple: var(--color-primary-orange);
+  --color-neon-green: var(--color-primary-green);
+
+  --glass-bg: rgba(255, 255, 255, 0.88);
+  --glass-border: rgba(8, 170, 247, 0.2);
+}
+
+[data-theme="dark"] {
+  /* 深色模式 */
+  --color-background: #0A0E1A;
+  --color-surface: #121827;
+  --color-surface-highlight: #1E2536;
+  --color-text-main: #F0F2F5;
+  --color-text-muted: #A0A8B8;
+
+  /* 深色模式强调色 - 更亮更饱和 */
+  --color-primary-orange: #FF8C2A;   /* 更亮的橙色 */
+  --color-primary-green: #6EE722;    /* 更亮的绿色 */
+  --color-primary-blue: #2EBDFF;     /* 更亮的蓝色 */
+  --color-neon-danger: #FF6B7A;      /* 更亮的警告色 */
+
+  /* 兼容旧变量名 */
+  --color-neon-cyan: var(--color-primary-blue);
+  --color-neon-purple: var(--color-primary-orange);
+  --color-neon-green: var(--color-primary-green);
+
+  --glass-bg: rgba(18, 24, 39, 0.85);
+  --glass-border: rgba(46, 189, 255, 0.15);
 }
 
 html,
 body {
-  max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, color 0.3s;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
+}
+
+/* 仅对块级元素重置 margin/padding */
+/* 注意：不要包含 p，Tailwind 已经处理了它，否则会覆盖 mx-auto */
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, figure, figcaption, blockquote, dl, dd {
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -35,8 +91,101 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-highlight);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neon-cyan);
+}
+
+/* 玻璃面板效果 */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* 霓虹发光效果 */
+.neon-glow {
+  box-shadow: 0 0 15px rgba(8, 170, 247, 0.3);
+}
+
+/* 文字发光效果 */
+.text-glow {
+  text-shadow: 0 0 10px rgba(8, 170, 247, 0.5);
+}
+
+/* 统一容器样式 */
+.container-main {
+  width: 100%;
+  max-width: 80rem;
+  /* 1280px */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-main {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
+}
+
+@media (min-width: 1024px) {
+  .container-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* 统一 section 间距 */
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* 统一标题样式 */
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-title h2 {
+    font-size: 2.25rem;
+  }
+}
+
+.section-title p {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
 }

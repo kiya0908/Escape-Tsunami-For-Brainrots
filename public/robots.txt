@@ -1,0 +1,11 @@
+# robots.txt for escapetsunamiforbrainrots.space
+
+# 允许所有爬虫访问
+User-agent: *
+
+# 禁止爬取 API 路由和其他私有路径
+Disallow: /api/
+Disallow: /_next/
+
+# 网站地图位置
+Sitemap: https://escapetsunamiforbrainrots.space/sitemap.xml
