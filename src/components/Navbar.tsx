@@ -7,6 +7,12 @@ import { Menu, X, Sun, Moon, Monitor } from 'lucide-react';
 // 主题类型
 export type Theme = 'light' | 'dark' | 'system';
 
+interface NavLink {
+    name: string;
+    href: string;
+    title: string;
+}
+
 interface NavbarProps {
     activeSection: string;
     theme: Theme;
@@ -31,11 +37,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
     }, []);
 
     const navLinks = [
-        { name: 'Guide', href: '#guide' },
-        { name: 'Brainrots', href: '#brainrots' },
-        { name: 'Progression', href: '#progression' },
-        { name: 'Events', href: '#events' },
-        { name: 'Tools', href: '#tools' },
+        { name: 'Guide', href: '#guide', title: 'Navigate to ETFB Beginner\'s Guide' },
+        { name: 'Brainrots', href: '#brainrots', title: 'View Brainrots Encyclopedia Database' },
+        { name: 'Progression', href: '#progression', title: 'Check ETFB Base Upgrades & Zone Unlocks' },
+        { name: 'Events', href: '#events', title: 'Discover Events, Secrets & Active Codes' },
+        { name: 'Tools', href: '#tools', title: 'Access ETFB Calculator & Optimization Tools' },
     ];
 
     const ThemeIcon = () => {
@@ -68,6 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                                 <a
                                     key={link.name}
                                     href={link.href}
+                                    title={link.title}
                                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${activeSection === link.href.substring(1)
                                         ? 'text-neon-cyan bg-surfaceHighlight'
                                         : 'text-text-muted hover:text-text-main hover:bg-surfaceHighlight/50'
@@ -118,7 +125,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                                 </div>
                             </div>
 
-                            <a href="#tools" className="ml-4 px-4 py-2 rounded bg-neon-cyan text-background font-bold hover:opacity-90 transition-opacity">
+                            <a href="#tools" title="Get Active ETFB Codes" className="ml-4 px-4 py-2 rounded bg-neon-cyan text-background font-bold hover:opacity-90 transition-opacity">
                                 Get Codes
                             </a>
                         </div>
@@ -159,6 +166,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                         <a
                             key={link.name}
                             href={link.href}
+                            title={link.title}
                             onClick={() => setIsOpen(false)}
                             className="block px-3 py-2 rounded-md text-base font-medium text-text-muted hover:text-text-main hover:bg-surfaceHighlight transition-colors"
                         >
