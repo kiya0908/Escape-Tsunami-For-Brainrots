@@ -1,0 +1,427 @@
+{
+    "Metadata": {
+        "title": "Escape Tsunami For Brainrots | Hindi-opisyal na Wiki at Tools",
+        "description": "Escape tsunami para sa brainrots: ang pangunahing survival resource! Master ang mapanganib na mga alon, i-optimize ang base income para sa paglago, hanapin ang radioactive coin sa mapa.",
+        "siteName": "ETFB Wiki"
+    },
+    "Navbar": {
+        "guide": "Gabay",
+        "brainrots": "Mga Brainrot",
+        "progression": "Pag-unlad",
+        "events": "Mga Event",
+        "tools": "Mga Tool",
+        "getCodes": "Kumuha ng Codes",
+        "guideTitle": "Pumunta sa ETFB Beginner's Guide",
+        "brainrotsTitle": "Tingnan ang Brainrots Encyclopedia Database",
+        "progressionTitle": "Tingnan ang ETFB Base Upgrades at Zone Unlocks",
+        "eventsTitle": "Tuklasin ang Events, Secrets at Active Codes",
+        "toolsTitle": "I-access ang ETFB Calculator at Optimization Tools",
+        "codesTitle": "Kumuha ng Active ETFB Codes",
+        "themeLight": "Maliwanag",
+        "themeDark": "Madilim",
+        "themeSystem": "Sistema"
+    },
+    "Hero": {
+        "badge": "Na-update para sa Pinakabagong Tsunami Patch",
+        "title": "Escape Tsunami For Brainrots",
+        "subtitle": "Ultimate Wiki, Guides at Tools",
+        "description": "Ang iyong ultimate Escape Tsunami For Brainrots resource hub. Master ang tsunami survival mechanics, i-optimize ang base income sa ETFB, hanapin ang mga bihirang brainrot collectibles, at dominahin ang leaderboards. Ang definitive Escape Tsunami For Brainrots guide para sa mga baguhan at pro.",
+        "browseBrainrots": "I-browse ang Mga Brainrot",
+        "startGuide": "Simulan ang Gabay",
+        "features": {
+            "encyclopedia": {
+                "title": "ETFB Brainrot Encyclopedia",
+                "description": "Kumpletong Escape Tsunami For Brainrots database na may detalyadong stats, rarities, at spawn locations para sa bawat brainrot collectible."
+            },
+            "survival": {
+                "title": "Tsunami Survival Strategy",
+                "description": "Master ang Escape Tsunami For Brainrots gamit ang step-by-step na mga estratehiya para mabuhay sa mga alon, makahanap ng safe spots, at ma-maximize ang iyong farming efficiency."
+            },
+            "tools": {
+                "title": "ETFB Optimization Tools",
+                "description": "Escape Tsunami For Brainrots calculators para sa pag-plan ng upgrades, pag-estimate ng income, at timing ng iyong rebirths para sa maximum progression."
+            }
+        }
+    },
+    "IntroSection": {
+        "title": "Ano ang Escape Tsunami For Brainrots?",
+        "description1": "Ang Escape Tsunami For Brainrots (kilala rin bilang ETFB) ay isang high-stakes survival at collection game sa Roblox. Ang kapana-panabik na karanasang ito ay pinagsasama ang excitement ng pagtakbo mula sa malalaking elemental waves kasama ang masayang pag-collect ng \"brainrot\" meme characters. Ang ETFB ay hindi lang isang running simulator—ito ay isang base-building tycoon na nakabalot sa disaster survival package.",
+        "description2": "Ang core gameplay loop ay addictive: pumasok ka sa mga mapanganib na zones para mangolekta ng Brainrots habang umiiwas sa periodic, nakamamatay na mga tsunami. Ang matagumpay na pagdadala ng mga item na ito pabalik sa iyong base ay lumilikha ng passive income. Ginagamit mo ang pera na iyon para i-upgrade ang iyong speed, jump height, at bag capacity, na nagpapahintulot sa iyo na mag-venture sa mas malalim, mas mapanganib na zones para sa mas bihirang loot.",
+        "gameplayLoop": {
+            "title": "Gameplay Loop",
+            "subtitle": "Master ang 5 pangunahing hakbang na ito",
+            "step": "Hakbang",
+            "steps": {
+                "1": {
+                    "text": "Tumakbo at Mag-explore",
+                    "desc": "Mag-navigate sa mga mapanganib na zones na puno ng nakakalat na Brainrots"
+                },
+                "2": {
+                    "text": "Umiwas sa Tsunami",
+                    "desc": "Mabuhay sa periodic elemental waves na dumadaan sa mapa"
+                },
+                "3": {
+                    "text": "Mangolekta ng Loot",
+                    "desc": "Tipunin ang mga Brainrot at ibalik sila ng ligtas sa iyong base"
+                },
+                "4": {
+                    "text": "I-upgrade ang Base",
+                    "desc": "Gamitin ang income para pataasin ang iyong stats at bag capacity"
+                },
+                "5": {
+                    "text": "Rebirth",
+                    "desc": "Mag-reset para sa permanent multipliers at access sa bagong zones"
+                }
+            }
+        },
+        "features": {
+            "title": "Mga Pangunahing Feature",
+            "subtitle": "Ano ang nagpapa-unique sa ETFB",
+            "items": {
+                "tsunami": {
+                    "title": "Dynamic Tsunami System",
+                    "description": "Maramihang elemental waves—Fire, Ice, Lightning, at iba pa—bawat isa ay may natatanging mga behavior. Master ang timing at patterns para mabuhay sa bawat encounter. Ang mas mataas na zones ay may mas nakamamatay na tsunamis na may mas mabilis na frequencies."
+                },
+                "base": {
+                    "title": "Base Building Tycoon",
+                    "description": "Bumuo at mag-upgrade ng iyong personal na sanctuary. Ang bawat Brainrot na inilagay ay lumilikha ng passive income, na lumilikha ng rewarding progression system. Mag-strategize ng iyong collection para ma-maximize ang profit per minute."
+                },
+                "character": {
+                    "title": "Character Progression",
+                    "description": "I-upgrade ang iyong movement speed, jump height, at inventory capacity. Ang mga stats na ito ay mahalaga para mabuhay sa late-game zones at magdala ng mahahalagang loot. Bawat upgrade ay nagpapalapit sa iyo sa pinakamalalim na areas."
+                },
+                "collectibles": {
+                    "title": "Mga Bihirang Collectibles",
+                    "description": "Tuklasin ang daan-daang Brainrot characters mula Common hanggang Legendary rarities. Bawat isa ay may natatanging spawn patterns at values. Kumpletuhin ang iyong collection at ipakita ang iyong pinakabihirang finds."
+                },
+                "rebirth": {
+                    "title": "Rebirth System",
+                    "description": "Kapag na-master mo na ang iyong kasalukuyang zone, mag-rebirth para sa permanent multipliers. Ang bawat rebirth ay nag-a-unlock ng access sa bago, mas mapanganib na areas na may exponentially better rewards. Ang cycle ay hindi natatapos."
+                },
+                "events": {
+                    "title": "Community Events",
+                    "description": "Lumahok sa mga special events na may exclusive Brainrot drops. Limited-time opportunities para makuha ang mga bihirang collectibles na wala sa ibang lugar. Manatiling konektado para hindi mapalampas ang mga sandaling ito."
+                }
+            }
+        },
+        "video": {
+            "title": "Manood at Matuto",
+            "subtitle": "Tingnan ang gameplay in action"
+        }
+    },
+    "FAQ": {
+        "title": "Escape Tsunami For Brainrots FAQ",
+        "items": {
+            "death": {
+                "question": "Ano ang mangyayari kung mamatay ako sa tsunami sa Escape Tsunami For Brainrots?",
+                "answer": "Kung tamaan ka ng tsunami wave sa Escape Tsunami For Brainrots, ikaw ay 'ragdoll' at karaniwang namamatay kaagad o naipit. Mawawalan ka ng 50% ng mga Brainrot na kasalukuyan sa iyong bag (hindi ang mga nasa ETFB base mo na). Laging mag-deposit nang madalas sa Escape Tsunami For Brainrots!"
+            },
+            "rebirth": {
+                "question": "Kailan ang pinakamainam na oras para gawin ang aking unang Rebirth sa ETFB?",
+                "answer": "Inirerekumenda naming maghintay hanggang naka-unlock ka ng kahit man lang Sandy Zone sa Escape Tsunami For Brainrots at may steady income na humigit-kumulang $500/s. Ang paggawa ng unang ETFB rebirth nang masyadong maaga ay magiging mahirap ang grind pabalik sa basic speed."
+            },
+            "voidWalker": {
+                "question": "Paano ko makukuha ang 'Void Walker' Brainrot sa Escape Tsunami For Brainrots?",
+                "answer": "Ang Void Walker ay isang Celestial rarity brainrot na nagsa-spawn exclusively sa Escape Tsunami For Brainrots Void Zone. Mayroon itong 0.5% spawn chance at karaniwang lumalabas sa pinakamataas na neon platforms sa ETFB."
+            },
+            "codes": {
+                "question": "Bakit hindi gumagana ang aking Escape Tsunami For Brainrots codes?",
+                "answer": "Ang Codes sa Escape Tsunami For Brainrots (ETFB) ay case-sensitive. Tiyaking i-capitalize ang mga letra nang eksakto tulad ng ipinapakita. Gayundin, ang ETFB codes ay madalas mag-expire pagkatapos ng major game updates, kaya tingnan ang aming 'Active Codes' section para sa pinakabagong Escape Tsunami For Brainrots codes."
+            },
+            "vip": {
+                "question": "Mayroon bang VIP area sa Escape Tsunami For Brainrots?",
+                "answer": "Oo, ang Escape Tsunami For Brainrots VIP gamepass ay nag-a-unlock ng espesyal na lounge na may 2x Passive Income boost at guaranteed Rare brainrot spawn spot. Sulit ito kung balak mong maglaro ng ETFB ng matagal."
+            }
+        }
+    },
+    "Footer": {
+        "description": "Ang ultimate unofficial wiki para sa Escape Tsunami For Brainrots. Guides, tools, at strategies para matulungan kang mabuhay sa mga alon.",
+        "quickLinks": {
+            "title": "Mga Mabilisang Link",
+            "beginnerGuide": "Beginner Guide",
+            "brainrotsDatabase": "Brainrots Database",
+            "activeCodes": "Active Codes",
+            "faq": "FAQ"
+        },
+        "resources": {
+            "title": "Mga Resource",
+            "playOnRoblox": "Maglaro sa Roblox",
+            "calculators": "Calculators at Tools",
+            "upgradeGuides": "Upgrade Guides",
+            "gameMechanics": "Game Mechanics"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Use",
+            "about": "Tungkol sa Amin"
+        },
+        "copyright": "ETFB Wiki. Lahat ng karapatan ay nakalaan.",
+        "disclaimer": "Hindi affiliated sa Roblox Corporation o sa mga game developers. Ito ay isang fan-made community resource."
+    },
+    "LanguageSwitcher": {
+        "label": "Wika",
+        "languages": {
+            "en": "English",
+            "fil": "Filipino",
+            "vi": "Tiếng Việt",
+            "id": "Bahasa Indonesia",
+            "de": "Deutsch"
+        }
+    },
+    "Mechanics": {
+        "title": "Paano Gumagana ang Escape Tsunami For Brainrots",
+        "subtitle": "Gabay sa Pangunahing Mekanika ng ETFB",
+        "description": "Ang pag-unawa sa mga pangunahing sistema ng Escape Tsunami For Brainrots ay ang susi upang mabuhay sa Void Zone at ma-maximize ang iyong Cash Per Second (CPS) sa ETFB.",
+        "controls": {
+            "title": "Mga Kontrol at Paggalaw sa ETFB",
+            "description": "Ang pag-master sa paggalaw sa Escape Tsunami For Brainrots ang iyong pangunahing depensa. Ang physics engine ng ETFB ay nagbibigay-daan para sa momentum-based na mga talon.",
+            "sprint": {
+                "label": "Pamamahala ng Sprint:",
+                "text": "Huwag ubusin ang stamina bago tumalon sa Escape Tsunami For Brainrots."
+            },
+            "camera": {
+                "label": "Mga Anggulo ng Camera:",
+                "text": "Laging panatilihin ang spawn point ng tsunami wave sa iyong peripheral vision."
+            },
+            "slide": {
+                "label": "Slide/Dash:",
+                "text": "Gamitin ang sliding (C o Ctrl) upang bumilis pababa ng mga slope sa ETFB."
+            }
+        },
+        "tsunami": {
+            "title": "Sistema ng Tsunami sa ETFB",
+            "description": "Ang mga tsunami wave sa Escape Tsunami For Brainrots ay nag-i-spawn base sa timer. Habang lumalayo ka sa spawn, mas mahirap takasan ang tsunami.",
+            "risk": {
+                "label": "Panganib vs Gantimpala:",
+                "text": "Ang mga high-value brainrots sa ETFB ay nasa malalalim na zones, malayo sa kaligtasan."
+            },
+            "impact": {
+                "label": "Epekto:",
+                "text": "Ang pagkatama ng tsunami ay magra-ragdoll sa iyo at maghuhulog ng 50% ng kasalukuyang bag loot."
+            },
+            "warning": {
+                "label": "Mga Senyales ng Babala:",
+                "text": "Makinig sa sirena at magmasid sa pag-atras ng tubig sa Escape Tsunami For Brainrots."
+            }
+        },
+        "safeSpots": {
+            "title": "Mga Ligtas na Lugar sa ETFB",
+            "description": "Hindi lahat ng matataas na lugar ay ligtas sa Escape Tsunami For Brainrots. Kailangan mong tukuyin ang mga itinalagang Safe Zones upang mabuhay sa tsunami.",
+            "platforms": {
+                "label": "Mga Nakataas na Platform:",
+                "text": "Hanapin ang mga kumikinang na green neon markers sa ETFB."
+            },
+            "bunkers": {
+                "label": "Mga Hukay at Bunker:",
+                "text": "Ang ilang Escape Tsunami For Brainrots zones ay may mga silungan sa ilalim ng lupa."
+            },
+            "timing": {
+                "label": "Timing:",
+                "text": "Karaniwan kang may 15-20 segundo pagkatapos ng sirena bago ang tama ng tsunami."
+            }
+        },
+        "brainrots": {
+            "title": "Mga Brainrot at Base sa ETFB",
+            "description": "Ang iyong base sa Escape Tsunami For Brainrots ang iyong passive income generator. Ang mga nakolektang Brainrots ay \"ini-deposit\" dito.",
+            "slots": {
+                "label": "Mga Slot:",
+                "text": "Mayroon kang limitadong slots sa ETFB. I-display ang iyong mga brainrot items na may pinakamataas na rarity."
+            },
+            "collection": {
+                "label": "Koleksyon:",
+                "text": "Pulutin ang mga brainrot sa Escape Tsunami For Brainrots sa pamamagitan ng paglakad sa ibabaw nila."
+            },
+            "deposit": {
+                "label": "I-deposit:",
+                "text": "Bumalik sa base upang i-empty ang bag at i-bank ang cash sa ETFB."
+            }
+        },
+        "speedZones": {
+            "title": "ETFB Speed at Zones",
+            "description": "Ang iyong Walk Speed stat sa Escape Tsunami For Brainrots ay nagsisilbing gatekeeper para sa mga advanced na area ng mapa.",
+            "speedCheck": {
+                "label": "Mga Speed Check:",
+                "text": "Hindi mo matatalon ang mga puwang papunta sa bagong ETFB zones nang walang sapat na bilis."
+            },
+            "tiers": {
+                "label": "Mga Zone Tier:",
+                "text": "Mga zone sa Escape Tsunami For Brainrots: Normal -> Sandy -> Toxic -> Void."
+            },
+            "difficulty": {
+                "label": "Hirap:",
+                "text": "Ang mga huling ETFB zones ay may kumplikadong parkour at mas mabilis na tsunami travel times."
+            }
+        },
+        "rebirth": {
+            "title": "Sistema ng Rebirth sa ETFB",
+            "description": "I-reset ang iyong Escape Tsunami For Brainrots base at stats para sa permanenteng multipliers. Mahalaga para sa ETFB late-game progression.",
+            "trigger": {
+                "label": "Trigger:",
+                "text": "Available kapag naabot mo ang mga tiyak na Cash milestones sa Escape Tsunami For Brainrots."
+            },
+            "keep": {
+                "label": "Panatilihin:",
+                "text": "Mananatili sa iyo ang Celestial/Divine Brainrots sa ETFB (tingnan ang mga tiyak na update notes)."
+            },
+            "gain": {
+                "label": "Makukuha:",
+                "text": "Permanenteng +% Income at Speed multipliers sa Escape Tsunami For Brainrots."
+            }
+        }
+    },
+    "Encyclopedia": {
+        "title": "Brainrots Encyclopedia",
+        "description": "Database ng stats, rarity, at values. Alamin kung ano ang iyong hinahanap.",
+        "searchPlaceholder": "Maghanap ng Brainrots...",
+        "filterLabel": "I-filter ayon sa rarity",
+        "allRarities": "Lahat ng Rarity",
+        "foundResults": "Nakahanap ng {count} (na) resulta para sa \"{term}\"",
+        "noResults": "Walang brainrots na nahanap",
+        "noResultsHint": "Subukang ayusin ang iyong paghahanap o filter",
+        "viewFullDatabase": "Tingnan ang Buong Database (142 Items)",
+        "labels": {
+            "income": "Kita:",
+            "spawnZone": "Spawn Zone:",
+            "bestUse": "Pinakamahusay na Gamit:"
+        },
+        "bestUseValues": {
+            "starter": "Starter",
+            "endGame": "End Game"
+        },
+        "rarities": {
+            "Common": "Common",
+            "Uncommon": "Uncommon",
+            "Rare": "Rare",
+            "Legendary": "Legendary",
+            "Celestial": "Celestial",
+            "Divine": "Divine"
+        },
+        "zones": {
+            "Normal": "Normal",
+            "Sandy": "Sandy",
+            "Toxic": "Toxic",
+            "Void": "Void",
+            "Event": "Event"
+        }
+    },
+    "Progression": {
+        "upgradesTitle": "Priyoridad sa Base at Upgrades",
+        "zonesTitle": "Mga Zone at Pag-unlad",
+        "priorityLabel": "Pri:",
+        "avgLootLabel": "Avg Loot:",
+        "upgrades": {
+            "walkSpeed": {
+                "title": "Bilis ng Lakad",
+                "priority": "Mataas",
+                "description": "Ang pinakamahalagang stat. Pinapataas ang bilis ng paggalaw na nagbibigay-daan sa pag-access sa mga bagong zone."
+            },
+            "jumpPower": {
+                "title": "Lakas ng Talon",
+                "priority": "Katamtaman",
+                "description": "Mahalaga para sa pag-akyat sa Toxic at Void zones. Huwag itong pabayaan."
+            },
+            "bagCapacity": {
+                "title": "Kapasidad ng Bag",
+                "priority": "Mataas (Mid-Game)",
+                "description": "Pinapataas kung ilang Brainrots ang maaari mong dalhin bawat takbo. I-maximize ito para sa AFK farming."
+            }
+        },
+        "strategyTitle": "Estratehikong Payo",
+        "strategy": {
+            "early": {
+                "phase": "Early Game",
+                "title": "Bilis ng Lakad",
+                "description": "Ilaan ang 80% ng iyong cash sa {stat}. Huwag pansinin ang Base Aesthetics. Ang layunin mo ay maabot ang Sandy Zone sa lalong madaling panahon."
+            },
+            "mid": {
+                "phase": "Mid Game",
+                "title": "Kapasidad ng Bag",
+                "description": "Balansehin ang {stat} sa mga Rebirth. Kung ang isang Rebirth ay tumatagal ng wala pang 10 minuto para makabawi, gawin ito."
+            }
+        },
+        "zones": {
+            "normal": {
+                "name": "Normal Zone",
+                "speedReq": "0 - 25 Speed",
+                "description": "Ang panimulang lugar. Patag na lupain, madaling safe spots. Mainam para sa pag-aaral ng wave timing.",
+                "loot": "Common / Uncommon"
+            },
+            "sandy": {
+                "name": "Sandy Shores",
+                "speedReq": "26 - 55 Speed",
+                "description": "Panimula sa verticality. Gamitin ang mga puno ng niyog at bato para mabuhay. Bahagyang mas mabilis ang galaw ng mga alon dito.",
+                "loot": "Uncommon / Rare"
+            },
+            "void": {
+                "name": "The Void",
+                "speedReq": "85+ Speed",
+                "description": "Napakadilim na kapaligiran na may neon platforms. Isang dulas ay katumbas ng kamatayan. Pinakamataas na panganib, pinakamataas na gantimpala.",
+                "loot": "Legendary / Celestial"
+            }
+        }
+    },
+    "EventsSecrets": {
+        "title": "Mga Event at Sikreto",
+        "description": "Tuklasin ang mga nakatagong lugar, limited-time events, at mga espesyal na code upang mapalakas ang iyong pag-unlad.",
+        "radioactive": {
+            "title": "Mga Radioactive Event",
+            "description": "Tuwing 30-45 minuto, isang Radioactive Tsunami ang tumatama. Ang tubig ay nagiging berde, at ang {coins} ay nag-i-spawn.",
+            "coins": "Radioactive Coins",
+            "bombTitle": "Objective A: Bomb Defusal",
+            "bombDesc": "Hanapin ang mga bombang nag-spawn sa mga random na zone. I-interact upang i-diffuse para sa malaking coin rewards.",
+            "tunnelTitle": "Objective B: The Green Tunnel",
+            "tunnelDesc": "Isang sikretong tunnel ang bubukas sa Sandy Zone habang may event. Kumpletuhin ang parkour sa loob para sa exclusive Radioactive Brainrots."
+        },
+        "secrets": {
+            "title": "Mga Sikreto at Nakatagong Lugar",
+            "description": "Ang mapa ay puno ng mga ilusyon na pader at invisible platforms. Nag-compile kami ng buong gabay na may screenshots.",
+            "waterfall": "Secret Room sa likod ng talon (Lobby)",
+            "ladder": "Invisible ladder sa Void Zone",
+            "viewAll": "Tingnan ang Lahat ng Secret Locations"
+        },
+        "codes": {
+            "title": "Mga Aktibong Code",
+            "expiresSoon": "Mag-e-expire na",
+            "active": "Aktibo",
+            "redeemHint": "Para i-redeem: Buksan ang menu > Settings > Blue Bird Icon. Ang mga code ay case-sensitive!"
+        }
+    },
+    "ToolsScripts": {
+        "toolsTitle": "Mga Tool sa Pag-optimize",
+        "tools": {
+            "income": {
+                "title": "Income Calculator",
+                "description": "Ilagay ang iyong kasalukuyang Brainrot lineup upang makita ang iyong eksaktong CPS (Cash Per Second) at oras sa susunod na upgrade."
+            },
+            "rebirth": {
+                "title": "Rebirth Planner",
+                "description": "Dapat ka bang mag-rebirth ngayon? Kinakalkula ng aming algorithm kung ang multiplier gain ay mas higit sa reset cost."
+            },
+            "speed": {
+                "title": "Speed Planner",
+                "description": "Kalkulahin kung gaano karaming pera ang kailangan mo upang maabot ang speed cap para sa mga partikular na Zone."
+            }
+        },
+        "disclaimer": {
+            "title": "Paalala sa mga Script at Executors",
+            "intro": "Naiintindihan namin na maraming manlalaro ang naghahanap ng {autoFarm}, {autoCollect}, o {teleport} scripts upang mag-grind nang mahusay. Bagaman sikat ang mga script sa komunidad ng ETFB, mangyaring maging aware:",
+            "autoFarm": "Auto Farm",
+            "autoCollect": "Auto Collect",
+            "teleport": "Teleport",
+            "accountSafety": {
+                "label": "Kaligtasan ng Account:",
+                "text": "Ang paggamit ng third-party executors ay maaaring humantong sa account bans o ninakaw na cookies."
+            },
+            "malwareRisk": {
+                "label": "Panganib sa Malware:",
+                "text": "Huwag na huwag mag-download ng `.exe` files na nagsasabing sila ay scripts. Kopyahin lamang ang raw text (Lua) mula sa mga mapagkakatiwalaang source tulad ng Pastebin o GitHub."
+            },
+            "ourStance": {
+                "label": "Ang Aming Paninindigan:",
+                "text": "Ang ETFB.com ay isang pang-edukasyon na Wiki. Hindi kami nagho-host, namamahagi, o nagve-verify ng anumang script files. Nagbibigay kami ng game data upang matulungan kang maglaro nang lehitimo."
+            },
+            "warning": "Maglaro ng patas, manatiling ligtas."
+        }
+    }
+}

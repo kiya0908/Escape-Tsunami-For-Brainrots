@@ -1,5 +1,8 @@
+"use client";
+
 import React from 'react';
 import { BookOpen, ShieldAlert, Cpu } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 // 特性卡片组件
 const Feature = ({ icon, title, desc }: { icon: React.ReactNode, title: string, desc: string }) => (
@@ -13,6 +16,8 @@ const Feature = ({ icon, title, desc }: { icon: React.ReactNode, title: string, 
 );
 
 const Hero: React.FC = () => {
+    const t = useTranslations('Hero');
+
     return (
         <div className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
             {/* 背景装饰 */}
@@ -27,26 +32,26 @@ const Hero: React.FC = () => {
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-cyan opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-cyan"></span>
                     </span>
-                    Updated for Latest Tsunami Patch
+                    {t('badge')}
                 </div>
 
                 <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-text-main mb-6">
                     Escape Tsunami For Brainrots <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-neon-purple text-glow">
-                        Ultimate Wiki, Guides & Tools
+                        {t('subtitle')}
                     </span>
                 </h1>
 
                 <p className="mt-4 max-w-2xl mx-auto text-xl text-text-muted">
-                    Your ultimate Escape Tsunami For Brainrots resource hub. Master tsunami survival mechanics, optimize base income in ETFB, find rare brainrot collectibles, and dominate the leaderboards. The definitive Escape Tsunami For Brainrots guide for beginners and pros alike.
+                    {t('description')}
                 </p>
 
                 <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
                     <a href="#brainrots" className="px-8 py-4 rounded-lg bg-neon-cyan text-background font-bold text-lg hover:bg-opacity-90 transition-all shadow-[0_0_20px_rgba(8,170,247,0.3)] hover:shadow-[0_0_30px_rgba(8,170,247,0.5)]">
-                        Browse Brainrots
+                        {t('browseBrainrots')}
                     </a>
                     <a href="#guide" className="px-8 py-4 rounded-lg border border-text-main/20 bg-surface/50 text-text-main font-semibold text-lg hover:bg-surfaceHighlight backdrop-blur-sm transition-all">
-                        Start Guide
+                        {t('startGuide')}
                     </a>
                 </div>
 
@@ -65,18 +70,18 @@ const Hero: React.FC = () => {
                 <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                     <Feature
                         icon={<BookOpen className="w-6 h-6 text-neon-cyan" />}
-                        title="ETFB Brainrot Encyclopedia"
-                        desc="Complete Escape Tsunami For Brainrots database with detailed stats, rarities, and spawn locations for every brainrot collectible."
+                        title={t('features.encyclopedia.title')}
+                        desc={t('features.encyclopedia.description')}
                     />
                     <Feature
                         icon={<ShieldAlert className="w-6 h-6 text-neon-purple" />}
-                        title="Tsunami Survival Strategy"
-                        desc="Master Escape Tsunami For Brainrots with step-by-step strategies to survive waves, find safe spots, and maximize your farming efficiency."
+                        title={t('features.survival.title')}
+                        desc={t('features.survival.description')}
                     />
                     <Feature
                         icon={<Cpu className="w-6 h-6 text-neon-green" />}
-                        title="ETFB Optimization Tools"
-                        desc="Escape Tsunami For Brainrots calculators to plan upgrades, estimate income, and time your rebirths for maximum progression."
+                        title={t('features.tools.title')}
+                        desc={t('features.tools.description')}
                     />
                 </div>
             </div>

@@ -1,5 +1,8 @@
+"use client";
+
 import React from 'react';
 import { Move, Waves, ShieldCheck, Database, Zap, Repeat } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 interface MechanicCardProps {
     icon: React.ReactNode;
@@ -24,24 +27,26 @@ const MechanicCard: React.FC<MechanicCardProps> = ({ icon, title, content, isDan
 );
 
 const Mechanics: React.FC = () => {
+    const t = useTranslations('Mechanics');
+
     return (
         <div className="py-16 md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-12 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-4">How Escape Tsunami For Brainrots Works <span className="text-neon-cyan text-xl block md:inline md:ml-2 font-normal opacity-80">ETFB Core Mechanics Guide</span></h2>
-                <p className="text-text-muted max-w-2xl mx-auto">Understanding Escape Tsunami For Brainrots fundamental systems is the key to surviving the Void Zone and maximizing your Cash Per Second (CPS) in ETFB.</p>
+                <h2 className="text-3xl md:text-4xl font-bold text-text-main mb-4">{t('title')} <span className="text-neon-cyan text-xl block md:inline md:ml-2 font-normal opacity-80">{t('subtitle')}</span></h2>
+                <p className="text-text-muted max-w-2xl mx-auto">{t('description')}</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <MechanicCard
                     icon={<Move className="text-neon-cyan" />}
-                    title="ETFB Controls & Movement"
+                    title={t('controls.title')}
                     content={
                         <>
-                            <p className="mb-3">Mastering movement in Escape Tsunami For Brainrots is your primary defense. The ETFB physics engine allows for momentum-based jumps.</p>
+                            <p className="mb-3">{t('controls.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Sprint Management:</strong> Don&apos;t deplete stamina before a jump in Escape Tsunami For Brainrots.</li>
-                                <li><strong className="text-text-main">Camera Angles:</strong> Always keep the tsunami wave spawn point in your peripheral vision.</li>
-                                <li><strong className="text-text-main">Slide/Dash:</strong> Use sliding (C or Ctrl) to gain speed down slopes in ETFB.</li>
+                                <li><strong className="text-text-main">{t('controls.sprint.label')}</strong> {t('controls.sprint.text')}</li>
+                                <li><strong className="text-text-main">{t('controls.camera.label')}</strong> {t('controls.camera.text')}</li>
+                                <li><strong className="text-text-main">{t('controls.slide.label')}</strong> {t('controls.slide.text')}</li>
                             </ul>
                         </>
                     }
@@ -49,15 +54,15 @@ const Mechanics: React.FC = () => {
 
                 <MechanicCard
                     icon={<Waves className="text-neon-danger" />}
-                    title="ETFB Tsunami System"
+                    title={t('tsunami.title')}
                     isDanger
                     content={
                         <>
-                            <p className="mb-3">Tsunami waves in Escape Tsunami For Brainrots spawn on a timer. The further you are from spawn, the harder it is to escape the tsunami.</p>
+                            <p className="mb-3">{t('tsunami.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Risk vs Reward:</strong> High-value brainrots in ETFB are in deep zones, far from safety.</li>
-                                <li><strong className="text-text-main">Impact:</strong> Getting hit by tsunami ragdolls you and drops 50% of current bag loot.</li>
-                                <li><strong className="text-text-main">Warning Signs:</strong> Listen for the siren and watch for the water receding in Escape Tsunami For Brainrots.</li>
+                                <li><strong className="text-text-main">{t('tsunami.risk.label')}</strong> {t('tsunami.risk.text')}</li>
+                                <li><strong className="text-text-main">{t('tsunami.impact.label')}</strong> {t('tsunami.impact.text')}</li>
+                                <li><strong className="text-text-main">{t('tsunami.warning.label')}</strong> {t('tsunami.warning.text')}</li>
                             </ul>
                         </>
                     }
@@ -65,14 +70,14 @@ const Mechanics: React.FC = () => {
 
                 <MechanicCard
                     icon={<ShieldCheck className="text-neon-green" />}
-                    title="ETFB Safe Spots"
+                    title={t('safeSpots.title')}
                     content={
                         <>
-                            <p className="mb-3">Not all high ground is safe in Escape Tsunami For Brainrots. You need to identify designated Safe Zones to survive the tsunami.</p>
+                            <p className="mb-3">{t('safeSpots.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Elevated Platforms:</strong> Look for glowing green neon markers in ETFB.</li>
-                                <li><strong className="text-text-main">Pits & Bunkers:</strong> Some Escape Tsunami For Brainrots zones have underground shelters.</li>
-                                <li><strong className="text-text-main">Timing:</strong> You usually have 15-20 seconds after the siren before tsunami impact.</li>
+                                <li><strong className="text-text-main">{t('safeSpots.platforms.label')}</strong> {t('safeSpots.platforms.text')}</li>
+                                <li><strong className="text-text-main">{t('safeSpots.bunkers.label')}</strong> {t('safeSpots.bunkers.text')}</li>
+                                <li><strong className="text-text-main">{t('safeSpots.timing.label')}</strong> {t('safeSpots.timing.text')}</li>
                             </ul>
                         </>
                     }
@@ -80,14 +85,14 @@ const Mechanics: React.FC = () => {
 
                 <MechanicCard
                     icon={<Database className="text-neon-purple" />}
-                    title="Brainrots & Base in ETFB"
+                    title={t('brainrots.title')}
                     content={
                         <>
-                            <p className="mb-3">Your base in Escape Tsunami For Brainrots is your passive income generator. Collected Brainrots are &quot;deposited&quot; here.</p>
+                            <p className="mb-3">{t('brainrots.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Slots:</strong> You have limited slots in ETFB. Display your highest rarity brainrot items.</li>
-                                <li><strong className="text-text-main">Collection:</strong> Pick up brainrots in Escape Tsunami For Brainrots by walking over them.</li>
-                                <li><strong className="text-text-main">Deposit:</strong> Return to base to empty bag and bank the cash in ETFB.</li>
+                                <li><strong className="text-text-main">{t('brainrots.slots.label')}</strong> {t('brainrots.slots.text')}</li>
+                                <li><strong className="text-text-main">{t('brainrots.collection.label')}</strong> {t('brainrots.collection.text')}</li>
+                                <li><strong className="text-text-main">{t('brainrots.deposit.label')}</strong> {t('brainrots.deposit.text')}</li>
                             </ul>
                         </>
                     }
@@ -95,14 +100,14 @@ const Mechanics: React.FC = () => {
 
                 <MechanicCard
                     icon={<Zap className="text-neon-purple" />}
-                    title="ETFB Speed & Zones"
+                    title={t('speedZones.title')}
                     content={
                         <>
-                            <p className="mb-3">Your Walk Speed stat in Escape Tsunami For Brainrots acts as a gatekeeper for advanced map areas.</p>
+                            <p className="mb-3">{t('speedZones.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Speed Checks:</strong> You cannot jump gaps to new ETFB zones without enough speed.</li>
-                                <li><strong className="text-text-main">Zone Tiers:</strong> Escape Tsunami For Brainrots zones: Normal -&gt; Sandy -&gt; Toxic -&gt; Void.</li>
-                                <li><strong className="text-text-main">Difficulty:</strong> Later ETFB zones have complex parkour and faster tsunami travel times.</li>
+                                <li><strong className="text-text-main">{t('speedZones.speedCheck.label')}</strong> {t('speedZones.speedCheck.text')}</li>
+                                <li><strong className="text-text-main">{t('speedZones.tiers.label')}</strong> {t('speedZones.tiers.text')}</li>
+                                <li><strong className="text-text-main">{t('speedZones.difficulty.label')}</strong> {t('speedZones.difficulty.text')}</li>
                             </ul>
                         </>
                     }
@@ -110,14 +115,14 @@ const Mechanics: React.FC = () => {
 
                 <MechanicCard
                     icon={<Repeat className="text-neon-cyan" />}
-                    title="ETFB Rebirth System"
+                    title={t('rebirth.title')}
                     content={
                         <>
-                            <p className="mb-3">Reset your Escape Tsunami For Brainrots base and stats for permanent multipliers. Essential for ETFB late-game progression.</p>
+                            <p className="mb-3">{t('rebirth.description')}</p>
                             <ul className="list-disc pl-4 space-y-2 text-base text-text-muted">
-                                <li><strong className="text-text-main">Trigger:</strong> Available once you hit specific Cash milestones in Escape Tsunami For Brainrots.</li>
-                                <li><strong className="text-text-main">Keep:</strong> You keep Celestial/Divine Brainrots in ETFB (check specific update notes).</li>
-                                <li><strong className="text-text-main">Gain:</strong> Permanent +% Income and Speed multipliers in Escape Tsunami For Brainrots.</li>
+                                <li><strong className="text-text-main">{t('rebirth.trigger.label')}</strong> {t('rebirth.trigger.text')}</li>
+                                <li><strong className="text-text-main">{t('rebirth.keep.label')}</strong> {t('rebirth.keep.text')}</li>
+                                <li><strong className="text-text-main">{t('rebirth.gain.label')}</strong> {t('rebirth.gain.text')}</li>
                             </ul>
                         </>
                     }

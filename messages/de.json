@@ -1,0 +1,427 @@
+{
+    "Metadata": {
+        "title": "Escape Tsunami For Brainrots | Inoffizielles Wiki & Tools",
+        "description": "Escape tsunami for brainrots: die ultimative Überlebensressource! Meistere die gefährlichen Wellen, optimiere das Basiseinkommen für Wachstum, finde radioaktive Münzen auf der Karte.",
+        "siteName": "ETFB Wiki"
+    },
+    "Navbar": {
+        "guide": "Anleitung",
+        "brainrots": "Brainrots",
+        "progression": "Fortschritt",
+        "events": "Events",
+        "tools": "Werkzeuge",
+        "getCodes": "Codes holen",
+        "guideTitle": "Zum ETFB Anfänger-Guide navigieren",
+        "brainrotsTitle": "Brainrots Enzyklopädie-Datenbank anzeigen",
+        "progressionTitle": "ETFB Basis-Upgrades & Zone-Freischaltungen prüfen",
+        "eventsTitle": "Events, Geheimnisse & aktive Codes entdecken",
+        "toolsTitle": "Auf ETFB Rechner & Optimierungstools zugreifen",
+        "codesTitle": "Aktive ETFB Codes holen",
+        "themeLight": "Hell",
+        "themeDark": "Dunkel",
+        "themeSystem": "System"
+    },
+    "Hero": {
+        "badge": "Aktualisiert für den neuesten Tsunami-Patch",
+        "title": "Escape Tsunami For Brainrots",
+        "subtitle": "Ultimatives Wiki, Guides & Tools",
+        "description": "Dein ultimativer Escape Tsunami For Brainrots Ressourcen-Hub. Meistere Tsunami-Überlebensmechaniken, optimiere das Basiseinkommen in ETFB, finde seltene Brainrot-Sammelstücke und dominiere die Ranglisten. Der definitive Escape Tsunami For Brainrots Guide für Anfänger und Profis.",
+        "browseBrainrots": "Brainrots durchsuchen",
+        "startGuide": "Guide starten",
+        "features": {
+            "encyclopedia": {
+                "title": "ETFB Brainrot Enzyklopädie",
+                "description": "Vollständige Escape Tsunami For Brainrots Datenbank mit detaillierten Statistiken, Seltenheiten und Spawn-Orten für jedes Brainrot-Sammelstück."
+            },
+            "survival": {
+                "title": "Tsunami-Überlebensstrategie",
+                "description": "Meistere Escape Tsunami For Brainrots mit Schritt-für-Schritt-Strategien, um Wellen zu überleben, sichere Orte zu finden und deine Farming-Effizienz zu maximieren."
+            },
+            "tools": {
+                "title": "ETFB Optimierungstools",
+                "description": "Escape Tsunami For Brainrots Rechner zur Planung von Upgrades, Einschätzung des Einkommens und Timing deiner Rebirths für maximalen Fortschritt."
+            }
+        }
+    },
+    "IntroSection": {
+        "title": "Was ist Escape Tsunami For Brainrots?",
+        "description1": "Escape Tsunami For Brainrots (auch bekannt als ETFB) ist ein hochriskantes Überlebens- und Sammelspiel auf Roblox. Diese spannende Erfahrung verbindet die Aufregung, massiven elementaren Wellen zu entkommen, mit dem chaotischen Spaß, \"Brainrot\"-Meme-Charaktere zu sammeln. ETFB ist nicht nur ein Lauf-Simulator – es ist ein Basenbau-Tycoon, verpackt in einem Katastrophen-Überlebenspaket.",
+        "description2": "Die Kern-Gameplay-Schleife macht süchtig: Du betrittst gefährliche Zonen, um nach Brainrots zu suchen, während du periodischen, tödlichen Tsunamis ausweichst. Das erfolgreiche Zurückbringen dieser Gegenstände zu deiner Basis generiert passives Einkommen. Du verwendest dieses Geld, um deine Geschwindigkeit, Sprunghöhe und Taschenkapazität zu verbessern, was dir ermöglicht, in tiefere, gefährlichere Zonen für seltenere Beute vorzudringen.",
+        "gameplayLoop": {
+            "title": "Gameplay-Schleife",
+            "subtitle": "Meistere diese 5 wesentlichen Schritte",
+            "step": "Schritt",
+            "steps": {
+                "1": {
+                    "text": "Laufen & Erkunden",
+                    "desc": "Navigiere durch gefährliche Zonen voller verstreuter Brainrots"
+                },
+                "2": {
+                    "text": "Tsunami ausweichen",
+                    "desc": "Überlebe periodische elementare Wellen, die über die Karte fegen"
+                },
+                "3": {
+                    "text": "Beute sammeln",
+                    "desc": "Sammle Brainrots und bringe sie sicher zu deiner Basis zurück"
+                },
+                "4": {
+                    "text": "Basis upgraden",
+                    "desc": "Nutze Einkommen, um deine Stats und Taschenkapazität zu erhöhen"
+                },
+                "5": {
+                    "text": "Wiedergeburt",
+                    "desc": "Setze zurück für permanente Multiplikatoren und Zugang zu neuen Zonen"
+                }
+            }
+        },
+        "features": {
+            "title": "Hauptfunktionen",
+            "subtitle": "Was ETFB einzigartig macht",
+            "items": {
+                "tsunami": {
+                    "title": "Dynamisches Tsunami-System",
+                    "description": "Mehrere elementare Wellen—Feuer, Eis, Blitz und mehr—jede mit einzigartigem Verhalten. Meistere das Timing und die Muster, um jede Begegnung zu überleben. Höhere Zonen bringen tödlichere Tsunamis mit schnelleren Frequenzen."
+                },
+                "base": {
+                    "title": "Basenbau-Tycoon",
+                    "description": "Baue und verbessere dein persönliches Heiligtum. Jeder platzierte Brainrot generiert passives Einkommen und schafft ein lohnendes Fortschrittssystem. Plane deine Sammlung strategisch, um den Gewinn pro Minute zu maximieren."
+                },
+                "character": {
+                    "title": "Charakter-Fortschritt",
+                    "description": "Verbessere deine Bewegungsgeschwindigkeit, Sprunghöhe und Inventarkapazität. Diese Stats sind entscheidend für das Überleben in Endgame-Zonen und das Tragen wertvoller Beute. Jedes Upgrade bringt dich den tiefsten Bereichen näher."
+                },
+                "collectibles": {
+                    "title": "Seltene Sammelstücke",
+                    "description": "Entdecke Hunderte von Brainrot-Charakteren von Common bis Legendary Seltenheiten. Jeder hat einzigartige Spawn-Muster und Werte. Vervollständige deine Sammlung und zeige deine seltensten Funde."
+                },
+                "rebirth": {
+                    "title": "Wiedergeburt-System",
+                    "description": "Wenn du deine aktuelle Zone gemeistert hast, werde wiedergeboren für permanente Multiplikatoren. Jede Wiedergeburt schaltet Zugang zu neuen, gefährlicheren Bereichen mit exponentiell besseren Belohnungen frei. Der Kreislauf endet nie."
+                },
+                "events": {
+                    "title": "Community-Events",
+                    "description": "Nimm an speziellen Events mit exklusiven Brainrot-Drops teil. Zeitlich begrenzte Möglichkeiten, seltene Sammelstücke zu erwerben, die nirgendwo anders zu finden sind. Bleib verbunden, um diese Momente nicht zu verpassen."
+                }
+            }
+        },
+        "video": {
+            "title": "Zuschauen & Lernen",
+            "subtitle": "Sieh das Gameplay in Aktion"
+        }
+    },
+    "FAQ": {
+        "title": "Escape Tsunami For Brainrots FAQ",
+        "items": {
+            "death": {
+                "question": "Was passiert, wenn ich in einem Tsunami in Escape Tsunami For Brainrots sterbe?",
+                "answer": "Wenn die Tsunami-Welle dich in Escape Tsunami For Brainrots trifft, \"ragdollst\" du und stirbst normalerweise sofort oder bleibst stecken. Du verlierst 50% der Brainrots, die sich derzeit in deiner Tasche befinden (nicht die, die bereits an deiner ETFB-Basis sind). Lagere immer oft in Escape Tsunami For Brainrots ein!"
+            },
+            "rebirth": {
+                "question": "Wann ist die beste Zeit für meine erste Wiedergeburt in ETFB?",
+                "answer": "Wir empfehlen zu warten, bis du mindestens die Sandy Zone in Escape Tsunami For Brainrots freigeschaltet hast und ein stabiles Einkommen von etwa $500/s hast. Eine zu frühe erste ETFB-Wiedergeburt macht das Zurückkehren zur Grundgeschwindigkeit schmerzhaft."
+            },
+            "voidWalker": {
+                "question": "Wie bekomme ich den 'Void Walker' Brainrot in Escape Tsunami For Brainrots?",
+                "answer": "Void Walker ist ein Brainrot mit Celestial-Seltenheit, der ausschließlich in der Escape Tsunami For Brainrots Void Zone spawnt. Er hat eine 0,5% Spawn-Chance und erscheint normalerweise auf den höchsten Neon-Plattformen in ETFB."
+            },
+            "codes": {
+                "question": "Warum funktionieren meine Escape Tsunami For Brainrots Codes nicht?",
+                "answer": "Codes in Escape Tsunami For Brainrots (ETFB) sind groß-/kleinschreibungsempfindlich. Stelle sicher, dass du Buchstaben genau so großschreibst wie gezeigt. Außerdem laufen ETFB-Codes oft nach großen Spielupdates ab, also überprüfe unseren 'Aktive Codes'-Bereich für die neuesten Escape Tsunami For Brainrots Codes."
+            },
+            "vip": {
+                "question": "Gibt es einen VIP-Bereich in Escape Tsunami For Brainrots?",
+                "answer": "Ja, der Escape Tsunami For Brainrots VIP-Gamepass schaltet eine spezielle Lounge mit 2x Passives Einkommen-Boost und einem garantierten Rare Brainrot Spawn-Punkt frei. Es lohnt sich, wenn du planst, ETFB langfristig zu spielen."
+            }
+        }
+    },
+    "Footer": {
+        "description": "Das ultimative inoffizielle Wiki für Escape Tsunami For Brainrots. Guides, Tools und Strategien, um dir beim Überleben der Wellen zu helfen.",
+        "quickLinks": {
+            "title": "Schnelllinks",
+            "beginnerGuide": "Anfänger-Guide",
+            "brainrotsDatabase": "Brainrots Datenbank",
+            "activeCodes": "Aktive Codes",
+            "faq": "FAQ"
+        },
+        "resources": {
+            "title": "Ressourcen",
+            "playOnRoblox": "Auf Roblox spielen",
+            "calculators": "Rechner & Tools",
+            "upgradeGuides": "Upgrade-Guides",
+            "gameMechanics": "Spielmechaniken"
+        },
+        "legal": {
+            "title": "Rechtliches",
+            "privacy": "Datenschutzrichtlinie",
+            "terms": "Nutzungsbedingungen",
+            "about": "Über uns"
+        },
+        "copyright": "ETFB Wiki. Alle Rechte vorbehalten.",
+        "disclaimer": "Nicht mit Roblox Corporation oder den Spielentwicklern verbunden. Dies ist eine von Fans erstellte Community-Ressource."
+    },
+    "LanguageSwitcher": {
+        "label": "Sprache",
+        "languages": {
+            "en": "English",
+            "fil": "Filipino",
+            "vi": "Tiếng Việt",
+            "id": "Bahasa Indonesia",
+            "de": "Deutsch"
+        }
+    },
+    "Mechanics": {
+        "title": "Wie Escape Tsunami For Brainrots funktioniert",
+        "subtitle": "ETFB Kernmechaniken-Guide",
+        "description": "Das Verstehen der grundlegenden Systeme von Escape Tsunami For Brainrots ist der Schlüssel zum Überleben in der Void Zone und zur Maximierung deines Cash Per Second (CPS) in ETFB.",
+        "controls": {
+            "title": "ETFB Steuerung & Bewegung",
+            "description": "Die Beherrschung der Bewegung in Escape Tsunami For Brainrots ist deine primäre Verteidigung. Die ETFB-Physik-Engine ermöglicht impulsbasierte Sprünge.",
+            "sprint": {
+                "label": "Sprint-Management:",
+                "text": "Verbrauche deine Ausdauer nicht vor einem Sprung in Escape Tsunami For Brainrots."
+            },
+            "camera": {
+                "label": "Kamera-Winkel:",
+                "text": "Halte den Tsunami-Spawner immer im peripheren Blickfeld."
+            },
+            "slide": {
+                "label": "Rutschen/Dash:",
+                "text": "Nutze Rutschen (C oder Strg) um an Hängen Geschwindigkeit zu gewinnen in ETFB."
+            }
+        },
+        "tsunami": {
+            "title": "ETFB Tsunami-System",
+            "description": "Tsunami-Wellen in Escape Tsunami For Brainrots spawnen nach einem Timer. Je weiter du vom Spawn entfernt bist, desto schwieriger ist es, dem Tsunami zu entkommen.",
+            "risk": {
+                "label": "Risiko vs Belohnung:",
+                "text": "Hochwertige Brainrots in ETFB sind in tiefen Zonen, weit von der Sicherheit entfernt."
+            },
+            "impact": {
+                "label": "Aufprall:",
+                "text": "Vom Tsunami getroffen zu werden wirft dich herum und du verlierst 50% deiner aktuellen Tasche."
+            },
+            "warning": {
+                "label": "Warnzeichen:",
+                "text": "Höre auf die Sirene und achte auf das zurückweichende Wasser in Escape Tsunami For Brainrots."
+            }
+        },
+        "safeSpots": {
+            "title": "ETFB Sichere Orte",
+            "description": "Nicht jeder erhöhte Punkt ist sicher in Escape Tsunami For Brainrots. Du musst designierte Sicherheitszonen identifizieren, um den Tsunami zu überleben.",
+            "platforms": {
+                "label": "Erhöhte Plattformen:",
+                "text": "Suche nach leuchtend grünen Neon-Markierungen in ETFB."
+            },
+            "bunkers": {
+                "label": "Gruben & Bunker:",
+                "text": "Einige Escape Tsunami For Brainrots Zonen haben unterirdische Schutzräume."
+            },
+            "timing": {
+                "label": "Timing:",
+                "text": "Du hast normalerweise 15-20 Sekunden nach der Sirene vor dem Tsunami-Einschlag."
+            }
+        },
+        "brainrots": {
+            "title": "Brainrots & Basis in ETFB",
+            "description": "Deine Basis in Escape Tsunami For Brainrots ist dein passiver Einkommensgenerator. Gesammelte Brainrots werden hier \"eingezahlt\".",
+            "slots": {
+                "label": "Slots:",
+                "text": "Du hast begrenzte Slots in ETFB. Zeige deine seltensten Brainrot-Items."
+            },
+            "collection": {
+                "label": "Sammlung:",
+                "text": "Hebe Brainrots in Escape Tsunami For Brainrots auf, indem du über sie gehst."
+            },
+            "deposit": {
+                "label": "Einzahlung:",
+                "text": "Kehre zur Basis zurück, um deine Tasche zu leeren und das Geld einzuzahlen in ETFB."
+            }
+        },
+        "speedZones": {
+            "title": "ETFB Geschwindigkeit & Zonen",
+            "description": "Dein Laufgeschwindigkeits-Stat in Escape Tsunami For Brainrots fungiert als Türöffner für fortgeschrittene Kartengebiete.",
+            "speedCheck": {
+                "label": "Geschwindigkeits-Checks:",
+                "text": "Du kannst ohne genug Geschwindigkeit keine Lücken zu neuen ETFB-Zonen überspringen."
+            },
+            "tiers": {
+                "label": "Zonen-Stufen:",
+                "text": "Escape Tsunami For Brainrots Zonen: Normal -> Sandy -> Toxic -> Void."
+            },
+            "difficulty": {
+                "label": "Schwierigkeit:",
+                "text": "Spätere ETFB-Zonen haben komplexes Parkour und schnellere Tsunami-Reisezeiten."
+            }
+        },
+        "rebirth": {
+            "title": "ETFB Wiedergeburt-System",
+            "description": "Setze deine Escape Tsunami For Brainrots Basis und Stats für permanente Multiplikatoren zurück. Essentiell für ETFB Endgame-Progression.",
+            "trigger": {
+                "label": "Auslöser:",
+                "text": "Verfügbar, sobald du bestimmte Cash-Meilensteine in Escape Tsunami For Brainrots erreichst."
+            },
+            "keep": {
+                "label": "Behalten:",
+                "text": "Du behältst Celestial/Divine Brainrots in ETFB (überprüfe spezifische Update-Notizen)."
+            },
+            "gain": {
+                "label": "Gewinn:",
+                "text": "Permanente +% Einkommen- und Geschwindigkeits-Multiplikatoren in Escape Tsunami For Brainrots."
+            }
+        }
+    },
+    "Encyclopedia": {
+        "title": "Brainrots Enzyklopädie",
+        "description": "Datenbank mit Statistiken, Seltenheit und Werten. Wisse, wonach du suchst.",
+        "searchPlaceholder": "Brainrots suchen...",
+        "filterLabel": "Nach Seltenheit filtern",
+        "allRarities": "Alle Seltenheiten",
+        "foundResults": "{count} Ergebnis(se) gefunden für \"{term}\"",
+        "noResults": "Keine Brainrots gefunden",
+        "noResultsHint": "Versuche, deine Suche oder deinen Filter anzupassen",
+        "viewFullDatabase": "Vollständige Datenbank anzeigen (142 Items)",
+        "labels": {
+            "income": "Einkommen:",
+            "spawnZone": "Spawn-Zone:",
+            "bestUse": "Beste Nutzung:"
+        },
+        "bestUseValues": {
+            "starter": "Starter",
+            "endGame": "Endgame"
+        },
+        "rarities": {
+            "Common": "Gewöhnlich",
+            "Uncommon": "Ungewöhnlich",
+            "Rare": "Selten",
+            "Legendary": "Legendär",
+            "Celestial": "Himmlisch",
+            "Divine": "Göttlich"
+        },
+        "zones": {
+            "Normal": "Normal",
+            "Sandy": "Sandig",
+            "Toxic": "Giftig",
+            "Void": "Leere",
+            "Event": "Event"
+        }
+    },
+    "Progression": {
+        "upgradesTitle": "Basis & Upgrade-Priorität",
+        "zonesTitle": "Zonen & Fortschritt",
+        "priorityLabel": "Pri:",
+        "avgLootLabel": "Durchschn. Beute:",
+        "upgrades": {
+            "walkSpeed": {
+                "title": "Laufgeschwindigkeit",
+                "priority": "Hoch",
+                "description": "Der wichtigste Stat. Erhöht die Bewegungsgeschwindigkeit und ermöglicht Zugang zu neuen Zonen."
+            },
+            "jumpPower": {
+                "title": "Sprungkraft",
+                "priority": "Mittel",
+                "description": "Essentiell für Vertikalität in den Toxic und Void Zonen. Vernachlässige dies nicht."
+            },
+            "bagCapacity": {
+                "title": "Taschenkapazität",
+                "priority": "Hoch (Midgame)",
+                "description": "Erhöht, wie viele Brainrots du pro Run tragen kannst. Maximiere dies für AFK-Farming."
+            }
+        },
+        "strategyTitle": "Strategische Ratschläge",
+        "strategy": {
+            "early": {
+                "phase": "Frühes Spiel",
+                "title": "Laufgeschwindigkeit",
+                "description": "Investiere 80% deines Geldes in {stat}. Ignoriere Basis-Ästhetik. Dein Ziel ist es, die Sandy Zone so schnell wie möglich zu erreichen."
+            },
+            "mid": {
+                "phase": "Mittleres Spiel",
+                "title": "Taschenkapazität",
+                "description": "Balance {stat} mit Wiedergeburten. Wenn eine Wiedergeburt weniger als 10 Minuten zur Erholung braucht, mach es."
+            }
+        },
+        "zones": {
+            "normal": {
+                "name": "Normal Zone",
+                "speedReq": "0 - 25 Geschwindigkeit",
+                "description": "Das Startgebiet. Flaches Gelände, einfache sichere Orte. Gut zum Erlernen des Wellen-Timings.",
+                "loot": "Gewöhnlich / Ungewöhnlich"
+            },
+            "sandy": {
+                "name": "Sandy Shores",
+                "speedReq": "26 - 55 Geschwindigkeit",
+                "description": "Einführung in Vertikalität. Nutze Palmen und Felsen zum Überleben. Wellen bewegen sich hier etwas schneller.",
+                "loot": "Ungewöhnlich / Selten"
+            },
+            "void": {
+                "name": "The Void",
+                "speedReq": "85+ Geschwindigkeit",
+                "description": "Pechschwarze Umgebung mit Neon-Plattformen. Ein Ausrutscher bedeutet Tod. Höchstes Risiko, höchste Belohnung.",
+                "loot": "Legendär / Himmlisch"
+            }
+        }
+    },
+    "EventsSecrets": {
+        "title": "Events & Geheimnisse",
+        "description": "Entdecke versteckte Bereiche, zeitlich begrenzte Events und spezielle Codes, um deinen Fortschritt zu verstärken.",
+        "radioactive": {
+            "title": "Radioaktive Events",
+            "description": "Alle 30-45 Minuten trifft ein Radioaktiver Tsunami ein. Das Wasser wird grün, und {coins} spawnen.",
+            "coins": "Radioaktive Münzen",
+            "bombTitle": "Ziel A: Bombenentschärfung",
+            "bombDesc": "Finde Bomben, die in zufälligen Zonen spawnen. Interagiere zum Entschärfen für massive Münzen-Belohnungen.",
+            "tunnelTitle": "Ziel B: Der Grüne Tunnel",
+            "tunnelDesc": "Ein geheimer Tunnel öffnet sich in der Sandy Zone während des Events. Absolviere Parkour darin für exklusive Radioaktive Brainrots."
+        },
+        "secrets": {
+            "title": "Geheimnisse & Versteckte Bereiche",
+            "description": "Die Karte ist voll von illusorischen Wänden und unsichtbaren Plattformen. Wir haben einen vollständigen Guide mit Screenshots zusammengestellt.",
+            "waterfall": "Geheimer Raum hinter dem Wasserfall (Lobby)",
+            "ladder": "Unsichtbare Leiter in der Void Zone",
+            "viewAll": "Alle Geheimen Orte anzeigen"
+        },
+        "codes": {
+            "title": "Aktive Codes",
+            "expiresSoon": "Läuft bald ab",
+            "active": "Aktiv",
+            "redeemHint": "Zum Einlösen: Öffne Menü > Einstellungen > Blaues Vogel-Symbol. Codes unterscheiden Groß-/Kleinschreibung!"
+        }
+    },
+    "ToolsScripts": {
+        "toolsTitle": "Optimierungs-Tools",
+        "tools": {
+            "income": {
+                "title": "Einkommens-Rechner",
+                "description": "Gib deine aktuelle Brainrot-Aufstellung ein, um dein genaues CPS (Cash Per Second) und Zeit bis zum nächsten Upgrade zu sehen."
+            },
+            "rebirth": {
+                "title": "Wiedergeburt-Planer",
+                "description": "Solltest du jetzt wiedergeboren werden? Unser Algorithmus berechnet, ob der Multiplikator-Gewinn die Reset-Kosten überwiegt."
+            },
+            "speed": {
+                "title": "Geschwindigkeits-Planer",
+                "description": "Berechne genau, wie viel Geld du brauchst, um das Geschwindigkeits-Cap für bestimmte Zonen zu erreichen."
+            }
+        },
+        "disclaimer": {
+            "title": "Ein Hinweis zu Scripts & Executors",
+            "intro": "Wir verstehen, dass viele Spieler nach {autoFarm}, {autoCollect}, oder {teleport} Scripts suchen, um effizient zu grinden. Während Scripts in der ETFB-Community beliebt sind, beachte bitte:",
+            "autoFarm": "Auto Farm",
+            "autoCollect": "Auto Collect",
+            "teleport": "Teleport",
+            "accountSafety": {
+                "label": "Account-Sicherheit:",
+                "text": "Die Verwendung von Drittanbieter-Executors kann zu Account-Sperren oder gestohlenen Cookies führen."
+            },
+            "malwareRisk": {
+                "label": "Malware-Risiko:",
+                "text": "Lade niemals `.exe`-Dateien herunter, die behaupten, Scripts zu sein. Kopiere nur Rohtext (Lua) von vertrauenswürdigen Quellen wie Pastebin oder GitHub."
+            },
+            "ourStance": {
+                "label": "Unsere Position:",
+                "text": "ETFB.com ist ein Bildungs-Wiki. Wir hosten, verteilen oder verifizieren keine Script-Dateien. Wir stellen Spieldaten bereit, um dir legitimes Spielen zu ermöglichen."
+            },
+            "warning": "Spiele fair, bleib sicher."
+        }
+    }
+}

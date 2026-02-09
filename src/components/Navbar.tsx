@@ -3,15 +3,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { Menu, X, Sun, Moon, Monitor } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
 
 // 主题类型
 export type Theme = 'light' | 'dark' | 'system';
-
-interface NavLink {
-    name: string;
-    href: string;
-    title: string;
-}
 
 interface NavbarProps {
     activeSection: string;
@@ -23,6 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
     const themeMenuRef = useRef<HTMLDivElement>(null);
+    const t = useTranslations('Navbar');
 
     // 点击外部关闭主题菜单
     useEffect(() => {
@@ -37,11 +34,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
     }, []);
 
     const navLinks = [
-        { name: 'Guide', href: '#guide', title: 'Navigate to ETFB Beginner\'s Guide' },
-        { name: 'Brainrots', href: '#brainrots', title: 'View Brainrots Encyclopedia Database' },
-        { name: 'Progression', href: '#progression', title: 'Check ETFB Base Upgrades & Zone Unlocks' },
-        { name: 'Events', href: '#events', title: 'Discover Events, Secrets & Active Codes' },
-        { name: 'Tools', href: '#tools', title: 'Access ETFB Calculator & Optimization Tools' },
+        { name: t('guide'), href: '#guide', title: t('guideTitle') },
+        { name: t('brainrots'), href: '#brainrots', title: t('brainrotsTitle') },
+        { name: t('progression'), href: '#progression', title: t('progressionTitle') },
+        { name: t('events'), href: '#events', title: t('eventsTitle') },
+        { name: t('tools'), href: '#tools', title: t('toolsTitle') },
     ];
 
     const ThemeIcon = () => {
@@ -58,13 +55,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
                         <Image
-    src="/favicon.ico"
-    alt="Escape Tsunami For Brainrots"
-    title="Escape Tsunami For Brainrots"
-    width={32}
-    height={32}
-    className="h-8 w-8"
-/>
+                            src="/favicon.ico"
+                            alt="Escape Tsunami For Brainrots"
+                            title="Escape Tsunami For Brainrots"
+                            width={32}
+                            height={32}
+                            className="h-8 w-8"
+                        />
                         <span className="font-bold text-xl tracking-tight text-text-main">ETFB<span className="text-neon-cyan">.space</span></span>
                     </div>
 
@@ -84,7 +81,10 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                                 </a>
                             ))}
 
-                            {/* 主题切换 - 添加外部点击关闭 */}
+                            {/* 语言切换器 */}
+                            <LanguageSwitcher />
+
+                            {/* 主题切换 */}
                             <div className="relative" ref={themeMenuRef}>
                                 <button
                                     onClick={() => setIsThemeMenuOpen(!isThemeMenuOpen)}
@@ -95,11 +95,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                                     <ThemeIcon />
                                 </button>
 
-                                {/* 主题菜单 - 添加动画 */}
+                                {/* 主题菜单 */}
                                 <div
                                     className={`absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-surface border border-text-main/10 ring-1 ring-black ring-opacity-5 transition-all duration-200 ${isThemeMenuOpen
-                                            ? 'opacity-100 visible translate-y-0'
-                                            : 'opacity-0 invisible -translate-y-2'
+                                        ? 'opacity-100 visible translate-y-0'
+                                        : 'opacity-0 invisible -translate-y-2'
                                         }`}
                                 >
                                     <div className="py-1" role="menu" aria-orientation="vertical">
@@ -107,31 +107,32 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                                             onClick={() => { setTheme('light'); setIsThemeMenuOpen(false); }}
                                             className={`w-full text-left px-4 py-2 text-sm flex items-center gap-2 transition-colors ${theme === 'light' ? 'text-neon-cyan bg-surfaceHighlight' : 'text-text-main hover:bg-surfaceHighlight'}`}
                                         >
-                                            <Sun className="h-4 w-4" /> Light
+                                            <Sun className="h-4 w-4" /> {t('themeLight')}
                                         </button>
                                         <button
                                             onClick={() => { setTheme('dark'); setIsThemeMenuOpen(false); }}
                                             className={`w-full text-left px-4 py-2 text-sm flex items-center gap-2 transition-colors ${theme === 'dark' ? 'text-neon-cyan bg-surfaceHighlight' : 'text-text-main hover:bg-surfaceHighlight'}`}
                                         >
-                                            <Moon className="h-4 w-4" /> Dark
+                                            <Moon className="h-4 w-4" /> {t('themeDark')}
                                         </button>
                                         <button
                                             onClick={() => { setTheme('system'); setIsThemeMenuOpen(false); }}
                                             className={`w-full text-left px-4 py-2 text-sm flex items-center gap-2 transition-colors ${theme === 'system' ? 'text-neon-cyan bg-surfaceHighlight' : 'text-text-main hover:bg-surfaceHighlight'}`}
                                         >
-                                            <Monitor className="h-4 w-4" /> System
+                                            <Monitor className="h-4 w-4" /> {t('themeSystem')}
                                         </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <a href="#tools" title="Get Active ETFB Codes" className="ml-4 px-4 py-2 rounded bg-neon-cyan text-background font-bold hover:opacity-90 transition-opacity">
-                                Get Codes
+                            <a href="#tools" title={t('codesTitle')} className="ml-4 px-4 py-2 rounded bg-neon-cyan text-background font-bold hover:opacity-90 transition-opacity">
+                                {t('getCodes')}
                             </a>
                         </div>
                     </div>
 
                     <div className="-mr-2 flex md:hidden items-center gap-2">
+                        <LanguageSwitcher />
                         <button
                             onClick={() => {
                                 // 在移动端循环切换主题
@@ -156,7 +157,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, theme, setTheme }) => {
                 </div>
             </div>
 
-            {/* 移动端菜单 - 添加动画 */}
+            {/* 移动端菜单 */}
             <div
                 className={`md:hidden bg-surface border-b border-text-main/10 transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                     }`}

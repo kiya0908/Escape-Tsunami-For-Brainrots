@@ -15,6 +15,7 @@ The ultimate resource for survival. Master the waves, optimize your base income,
 - **资源收集** - 每一个放射性硬币的位置
 - **脑干收集** - 成为顶级收集者
 - **游戏代码** - 最新的兑换代码
+- **多语言支持** - 支持英语、菲律宾语、越南语、印尼语、德语
 
 ## 技术栈
 
@@ -52,8 +53,10 @@ npm start
 escapeysunami/
 ├── src/
 │   ├── app/          # Next.js App Router
-│   ├── components/    # React 组件
-│   └── lib/          # 工具函数
+│   ├── components/   # React 组件
+│   ├── i18n/         # 国际化配置
+│   ├── lib/          # 工具函数
+│   └── middleware.ts # 中间件 (处理路由重定向)
 ├── public/           # 静态资源
 └── package.json
 ```

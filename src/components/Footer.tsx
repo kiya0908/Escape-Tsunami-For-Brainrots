@@ -1,7 +1,10 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BookOpen, Gamepad2, Gift, HelpCircle } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 // 链接组件
 const FooterLink = ({ href, children }: { href: string, children: React.ReactNode }) => (
@@ -14,11 +17,13 @@ const FooterLink = ({ href, children }: { href: string, children: React.ReactNod
 );
 
 const Footer: React.FC = () => {
+    const t = useTranslations('Footer');
+
     const quickLinks = [
-        { name: 'Beginner Guide', href: '#guide', icon: BookOpen },
-        { name: 'Brainrots Database', href: '#brainrots', icon: Gamepad2 },
-        { name: 'Active Codes', href: '#events', icon: Gift },
-        { name: 'FAQ', href: '#faq', icon: HelpCircle },
+        { name: t('quickLinks.beginnerGuide'), href: '#guide', icon: BookOpen },
+        { name: t('quickLinks.brainrotsDatabase'), href: '#brainrots', icon: Gamepad2 },
+        { name: t('quickLinks.activeCodes'), href: '#events', icon: Gift },
+        { name: t('quickLinks.faq'), href: '#faq', icon: HelpCircle },
     ];
 
     return (
@@ -30,23 +35,23 @@ const Footer: React.FC = () => {
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <Image
-    src="/favicon.ico"
-    alt="Escape Tsunami For Brainrots"
-    title="Escape Tsunami For Brainrots"
-    width={24}
-    height={24}
-    className="h-6 w-6"
-/>
+                                src="/favicon.ico"
+                                alt="Escape Tsunami For Brainrots"
+                                title="Escape Tsunami For Brainrots"
+                                width={24}
+                                height={24}
+                                className="h-6 w-6"
+                            />
                             <span className="font-bold text-lg text-text-main">ETFB<span className="text-neon-cyan">.space</span></span>
                         </div>
                         <p className="text-text-muted text-sm leading-relaxed">
-                            The ultimate unofficial wiki for Escape Tsunami For Brainrots. Guides, tools, and strategies to help you survive the waves.
+                            {t('description')}
                         </p>
                     </div>
 
                     {/* 列2: 快速链接 */}
                     <div>
-                        <h3 className="font-bold text-text-main mb-4">Quick Links</h3>
+                        <h3 className="font-bold text-text-main mb-4">{t('quickLinks.title')}</h3>
                         <ul className="space-y-3">
                             {quickLinks.map((link) => (
                                 <li key={link.name}>
@@ -64,32 +69,32 @@ const Footer: React.FC = () => {
 
                     {/* 列3: Resources */}
                     <div>
-                        <h3 className="font-bold text-text-main mb-4">Resources</h3>
+                        <h3 className="font-bold text-text-main mb-4">{t('resources.title')}</h3>
                         <ul className="space-y-3">
-                            <li><FooterLink href="https://www.roblox.com/games/escape-tsunami">Play on Roblox</FooterLink></li>
-                            <li><FooterLink href="#tools">Calculators & Tools</FooterLink></li>
-                            <li><FooterLink href="#progression">Upgrade Guides</FooterLink></li>
-                            <li><FooterLink href="#mechanics">Game Mechanics</FooterLink></li>
+                            <li><FooterLink href="https://www.roblox.com/games/escape-tsunami">{t('resources.playOnRoblox')}</FooterLink></li>
+                            <li><FooterLink href="#tools">{t('resources.calculators')}</FooterLink></li>
+                            <li><FooterLink href="#progression">{t('resources.upgradeGuides')}</FooterLink></li>
+                            <li><FooterLink href="#mechanics">{t('resources.gameMechanics')}</FooterLink></li>
                         </ul>
                     </div>
 
                     {/* 列4: Legal */}
                     <div>
-                        <h3 className="font-bold text-text-main mb-4">Legal</h3>
+                        <h3 className="font-bold text-text-main mb-4">{t('legal.title')}</h3>
                         <ul className="space-y-3">
                             <li>
                                 <Link href="/privacy" className="text-text-muted hover:text-neon-cyan transition-colors text-sm">
-                                    Privacy Policy
+                                    {t('legal.privacy')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/terms" className="text-text-muted hover:text-neon-cyan transition-colors text-sm">
-                                    Terms of Use
+                                    {t('legal.terms')}
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/about" className="text-text-muted hover:text-neon-cyan transition-colors text-sm">
-                                    About Us
+                                    {t('legal.about')}
                                 </Link>
                             </li>
                         </ul>
@@ -100,11 +105,10 @@ const Footer: React.FC = () => {
                 <div className="border-t border-text-main/10 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-text-muted text-sm">
-                            &copy; {new Date().getFullYear()} ETFB Wiki. All rights reserved.
+                            &copy; {new Date().getFullYear()} {t('copyright')}
                         </p>
                         <p className="text-text-muted text-xs text-center md:text-right opacity-60">
-                            Not affiliated with Roblox Corporation or the game developers.<br />
-                            This is a fan-made community resource.
+                            {t('disclaimer')}
                         </p>
                     </div>
                 </div>

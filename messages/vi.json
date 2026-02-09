@@ -1,0 +1,427 @@
+{
+    "Metadata": {
+        "title": "Escape Tsunami For Brainrots | Wiki & Công cụ không chính thức",
+        "description": "Escape tsunami for brainrots: tài nguyên sinh tồn tối ưu! Làm chủ những con sóng nguy hiểm, tối ưu hóa thu nhập base để phát triển, tìm radioactive coin trên bản đồ.",
+        "siteName": "ETFB Wiki"
+    },
+    "Navbar": {
+        "guide": "Hướng dẫn",
+        "brainrots": "Brainrots",
+        "progression": "Tiến trình",
+        "events": "Sự kiện",
+        "tools": "Công cụ",
+        "getCodes": "Lấy Codes",
+        "guideTitle": "Đi đến Hướng dẫn cho người mới ETFB",
+        "brainrotsTitle": "Xem Cơ sở dữ liệu Bách khoa Brainrots",
+        "progressionTitle": "Kiểm tra Nâng cấp Base & Mở khóa Zone ETFB",
+        "eventsTitle": "Khám phá Sự kiện, Bí mật & Codes hoạt động",
+        "toolsTitle": "Truy cập Máy tính & Công cụ tối ưu ETFB",
+        "codesTitle": "Lấy Codes ETFB hoạt động",
+        "themeLight": "Sáng",
+        "themeDark": "Tối",
+        "themeSystem": "Hệ thống"
+    },
+    "Hero": {
+        "badge": "Cập nhật cho Bản vá Tsunami mới nhất",
+        "title": "Escape Tsunami For Brainrots",
+        "subtitle": "Wiki, Hướng dẫn & Công cụ Toàn diện",
+        "description": "Trung tâm tài nguyên Escape Tsunami For Brainrots toàn diện của bạn. Làm chủ cơ chế sinh tồn tsunami, tối ưu hóa thu nhập base trong ETFB, tìm các vật phẩm brainrot hiếm, và thống trị bảng xếp hạng. Hướng dẫn Escape Tsunami For Brainrots chính thức cho cả người mới và chuyên gia.",
+        "browseBrainrots": "Duyệt Brainrots",
+        "startGuide": "Bắt đầu Hướng dẫn",
+        "features": {
+            "encyclopedia": {
+                "title": "Bách khoa Brainrot ETFB",
+                "description": "Cơ sở dữ liệu Escape Tsunami For Brainrots hoàn chỉnh với thống kê chi tiết, độ hiếm và vị trí spawn cho mọi brainrot collectible."
+            },
+            "survival": {
+                "title": "Chiến lược Sinh tồn Tsunami",
+                "description": "Làm chủ Escape Tsunami For Brainrots với các chiến lược từng bước để sống sót qua sóng, tìm điểm an toàn và tối đa hóa hiệu quả farming."
+            },
+            "tools": {
+                "title": "Công cụ Tối ưu ETFB",
+                "description": "Máy tính Escape Tsunami For Brainrots để lên kế hoạch nâng cấp, ước tính thu nhập và thời điểm rebirth cho tiến trình tối đa."
+            }
+        }
+    },
+    "IntroSection": {
+        "title": "Escape Tsunami For Brainrots là gì?",
+        "description1": "Escape Tsunami For Brainrots (còn gọi là ETFB) là một game sinh tồn và sưu tập kịch tính trên Roblox. Trải nghiệm hồi hộp này kết hợp sự phấn khích của việc chạy thoát khỏi những con sóng nguyên tố khổng lồ với niềm vui hỗn loạn của việc sưu tập các nhân vật meme \"brainrot\". ETFB không chỉ là một trình mô phỏng chạy—đó là một tycoon xây dựng căn cứ được bọc trong một gói sinh tồn thảm họa.",
+        "description2": "Vòng lặp gameplay chính rất gây nghiện: bạn vào các vùng nguy hiểm để tìm kiếm Brainrots trong khi tránh các đợt tsunami chết người định kỳ. Thành công mang những vật phẩm này về căn cứ sẽ tạo ra thu nhập thụ động. Bạn sử dụng tiền đó để nâng cấp tốc độ, chiều cao nhảy và dung lượng túi, cho phép bạn xâm nhập vào các vùng sâu hơn, nguy hiểm hơn để loot hiếm hơn.",
+        "gameplayLoop": {
+            "title": "Vòng lặp Gameplay",
+            "subtitle": "Làm chủ 5 bước thiết yếu này",
+            "step": "Bước",
+            "steps": {
+                "1": {
+                    "text": "Chạy & Khám phá",
+                    "desc": "Điều hướng qua các vùng nguy hiểm đầy Brainrots rải rác"
+                },
+                "2": {
+                    "text": "Tránh Tsunami",
+                    "desc": "Sống sót qua các đợt sóng nguyên tố định kỳ quét qua bản đồ"
+                },
+                "3": {
+                    "text": "Thu thập Loot",
+                    "desc": "Thu thập Brainrots và đưa chúng về căn cứ an toàn"
+                },
+                "4": {
+                    "text": "Nâng cấp Base",
+                    "desc": "Sử dụng thu nhập để tăng stats và dung lượng túi"
+                },
+                "5": {
+                    "text": "Tái sinh",
+                    "desc": "Reset để nhận hệ số nhân vĩnh viễn và truy cập vùng mới"
+                }
+            }
+        },
+        "features": {
+            "title": "Tính năng chính",
+            "subtitle": "Điều gì làm ETFB độc đáo",
+            "items": {
+                "tsunami": {
+                    "title": "Hệ thống Tsunami động",
+                    "description": "Nhiều sóng nguyên tố—Lửa, Băng, Sét và hơn thế—mỗi loại có hành vi độc đáo. Làm chủ thời gian và mẫu để sống sót mọi cuộc chạm trán. Các vùng cao hơn mang đến tsunamis chết chóc hơn với tần suất nhanh hơn."
+                },
+                "base": {
+                    "title": "Base Building Tycoon",
+                    "description": "Xây dựng và nâng cấp nơi trú ẩn cá nhân của bạn. Mỗi Brainrot đặt xuống tạo thu nhập thụ động, tạo ra hệ thống tiến trình đền đáp. Lên chiến lược bộ sưu tập để tối đa lợi nhuận mỗi phút."
+                },
+                "character": {
+                    "title": "Tiến trình Nhân vật",
+                    "description": "Nâng cấp tốc độ di chuyển, chiều cao nhảy và dung lượng kho. Những stats này rất quan trọng để sống sót ở vùng cuối game và mang loot giá trị. Mỗi nâng cấp đưa bạn đến gần các khu vực sâu nhất."
+                },
+                "collectibles": {
+                    "title": "Collectibles Hiếm",
+                    "description": "Khám phá hàng trăm nhân vật Brainrot từ Common đến Legendary rarities. Mỗi loại có mẫu spawn và giá trị độc đáo. Hoàn thành bộ sưu tập và khoe những phát hiện hiếm nhất của bạn."
+                },
+                "rebirth": {
+                    "title": "Hệ thống Tái sinh",
+                    "description": "Khi bạn đã làm chủ vùng hiện tại, tái sinh để nhận hệ số nhân vĩnh viễn. Mỗi lần tái sinh mở khóa quyền truy cập vào các khu vực mới, nguy hiểm hơn với phần thưởng tốt hơn theo cấp số nhân. Chu kỳ không bao giờ kết thúc."
+                },
+                "events": {
+                    "title": "Sự kiện Cộng đồng",
+                    "description": "Tham gia các sự kiện đặc biệt với Brainrot drops độc quyền. Cơ hội thời gian giới hạn để có được các collectibles hiếm không tìm thấy ở nơi khác. Giữ kết nối để không bỏ lỡ những khoảnh khắc này."
+                }
+            }
+        },
+        "video": {
+            "title": "Xem & Học",
+            "subtitle": "Xem gameplay thực tế"
+        }
+    },
+    "FAQ": {
+        "title": "Câu hỏi thường gặp Escape Tsunami For Brainrots",
+        "items": {
+            "death": {
+                "question": "Điều gì xảy ra nếu tôi chết trong tsunami ở Escape Tsunami For Brainrots?",
+                "answer": "Nếu sóng tsunami đánh trúng bạn trong Escape Tsunami For Brainrots, bạn sẽ 'ragdoll' và thường chết ngay lập tức hoặc bị kẹt. Bạn sẽ mất 50% Brainrots hiện đang trong túi (không phải những cái đã ở base ETFB của bạn). Luôn gửi thường xuyên trong Escape Tsunami For Brainrots!"
+            },
+            "rebirth": {
+                "question": "Khi nào là thời điểm tốt nhất để thực hiện Rebirth đầu tiên trong ETFB?",
+                "answer": "Chúng tôi khuyên bạn nên đợi cho đến khi mở khóa ít nhất Sandy Zone trong Escape Tsunami For Brainrots và có thu nhập ổn định khoảng $500/s. Thực hiện rebirth ETFB đầu tiên quá sớm làm cho việc grind trở lại tốc độ cơ bản rất khó khăn."
+            },
+            "voidWalker": {
+                "question": "Làm sao để có được 'Void Walker' Brainrot trong Escape Tsunami For Brainrots?",
+                "answer": "Void Walker là một brainrot độ hiếm Celestial spawn độc quyền trong Escape Tsunami For Brainrots Void Zone. Nó có 0.5% cơ hội spawn và thường xuất hiện trên các nền tảng neon cao nhất trong ETFB."
+            },
+            "codes": {
+                "question": "Tại sao codes Escape Tsunami For Brainrots của tôi không hoạt động?",
+                "answer": "Codes trong Escape Tsunami For Brainrots (ETFB) phân biệt chữ hoa chữ thường. Đảm bảo bạn viết hoa các chữ cái chính xác như được hiển thị. Ngoài ra, ETFB codes thường hết hạn sau các bản cập nhật game lớn, vì vậy hãy kiểm tra phần 'Active Codes' của chúng tôi để có codes Escape Tsunami For Brainrots mới nhất."
+            },
+            "vip": {
+                "question": "Có khu vực VIP trong Escape Tsunami For Brainrots không?",
+                "answer": "Có, Escape Tsunami For Brainrots VIP gamepass mở khóa một phòng chờ đặc biệt với 2x Passive Income boost và điểm spawn Rare brainrot được đảm bảo. Nó đáng giá nếu bạn định chơi ETFB lâu dài."
+            }
+        }
+    },
+    "Footer": {
+        "description": "Wiki không chính thức tối ưu cho Escape Tsunami For Brainrots. Hướng dẫn, công cụ và chiến lược để giúp bạn sống sót qua sóng.",
+        "quickLinks": {
+            "title": "Liên kết nhanh",
+            "beginnerGuide": "Hướng dẫn cho người mới",
+            "brainrotsDatabase": "Cơ sở dữ liệu Brainrots",
+            "activeCodes": "Codes hoạt động",
+            "faq": "FAQ"
+        },
+        "resources": {
+            "title": "Tài nguyên",
+            "playOnRoblox": "Chơi trên Roblox",
+            "calculators": "Máy tính & Công cụ",
+            "upgradeGuides": "Hướng dẫn Nâng cấp",
+            "gameMechanics": "Cơ chế Game"
+        },
+        "legal": {
+            "title": "Pháp lý",
+            "privacy": "Chính sách Bảo mật",
+            "terms": "Điều khoản Sử dụng",
+            "about": "Về Chúng tôi"
+        },
+        "copyright": "ETFB Wiki. Bảo lưu mọi quyền.",
+        "disclaimer": "Không liên kết với Roblox Corporation hoặc các nhà phát triển game. Đây là tài nguyên cộng đồng do fan tạo."
+    },
+    "LanguageSwitcher": {
+        "label": "Ngôn ngữ",
+        "languages": {
+            "en": "English",
+            "fil": "Filipino",
+            "vi": "Tiếng Việt",
+            "id": "Bahasa Indonesia",
+            "de": "Deutsch"
+        }
+    },
+    "Mechanics": {
+        "title": "Cách Hoạt Động Của Escape Tsunami For Brainrots",
+        "subtitle": "Hướng Dẫn Cơ Chế Cốt Lõi ETFB",
+        "description": "Hiểu rõ các hệ thống cơ bản của Escape Tsunami For Brainrots là chìa khóa để sống sót trong Void Zone và tối đa hóa Tiền Mỗi Giây (CPS) của bạn trong ETFB.",
+        "controls": {
+            "title": "Điều Khiển & Di Chuyển ETFB",
+            "description": "Thành thạo di chuyển trong Escape Tsunami For Brainrots là cách phòng thủ chính của bạn. Công cụ vật lý ETFB cho phép thực hiện các cú nhảy dựa trên đà.",
+            "sprint": {
+                "label": "Quản Lý Chạy Nước Rút:",
+                "text": "Đừng để cạn kiệt thể lực trước khi nhảy trong Escape Tsunami For Brainrots."
+            },
+            "camera": {
+                "label": "Góc Camera:",
+                "text": "Luôn giữ điểm xuất hiện sóng thần trong tầm nhìn ngoại vi của bạn."
+            },
+            "slide": {
+                "label": "Trượt/Lướt:",
+                "text": "Sử dụng trượt (C hoặc Ctrl) để tăng tốc độ xuống dốc trong ETFB."
+            }
+        },
+        "tsunami": {
+            "title": "Hệ Thống Sóng Thần ETFB",
+            "description": "Sóng thần trong Escape Tsunami For Brainrots xuất hiện theo thời gian. Càng đi xa khỏi điểm xuất phát, càng khó thoát khỏi sóng thần.",
+            "risk": {
+                "label": "Rủi Ro vs Phần Thưởng:",
+                "text": "Các brainrot giá trị cao trong ETFB nằm ở các vùng sâu, xa nơi an toàn."
+            },
+            "impact": {
+                "label": "Tác Động:",
+                "text": "Bị sóng thần đánh trúng sẽ khiến bạn bị ragdoll và rơi 50% số đồ hiện có trong túi."
+            },
+            "warning": {
+                "label": "Dấu Hiệu Cảnh Báo:",
+                "text": "Lắng nghe tiếng còi báo động và quan sát nước rút trong Escape Tsunami For Brainrots."
+            }
+        },
+        "safeSpots": {
+            "title": "Các Điểm An Toàn ETFB",
+            "description": "Không phải tất cả các khu vực cao đều an toàn trong Escape Tsunami For Brainrots. Bạn cần xác định các Khu Vực An Toàn được chỉ định để sống sót qua sóng thần.",
+            "platforms": {
+                "label": "Nền Tảng Trên Cao:",
+                "text": "Tìm kiếm các dấu hiệu neon màu xanh lá cây phát sáng trong ETFB."
+            },
+            "bunkers": {
+                "label": "Hố & Hầm Trú Ẩn:",
+                "text": "Một số khu vực trong Escape Tsunami For Brainrots có hầm trú ẩn dưới lòng đất."
+            },
+            "timing": {
+                "label": "Thời Gian:",
+                "text": "Bạn thường có 15-20 giây sau tiếng còi trước khi sóng thần ập đến."
+            }
+        },
+        "brainrots": {
+            "title": "Brainrots & Căn Cứ trong ETFB",
+            "description": "Căn cứ của bạn trong Escape Tsunami For Brainrots là nguồn thu nhập thụ động. Các Brainrot thu thập được sẽ được \"gửi\" vào đây.",
+            "slots": {
+                "label": "Khe Chứa:",
+                "text": "Bạn có số lượng khe chứa hạn chế trong ETFB. Hãy trưng bày các vật phẩm brainrot có độ hiếm cao nhất của bạn."
+            },
+            "collection": {
+                "label": "Thu Thập:",
+                "text": "Nhặt các brainrot trong Escape Tsunami For Brainrots bằng cách đi bộ qua chúng."
+            },
+            "deposit": {
+                "label": "Gửi Tiền:",
+                "text": "Quay lại căn cứ để làm trống túi và gửi tiền vào ngân hàng trong ETFB."
+            }
+        },
+        "speedZones": {
+            "title": "Tốc Độ & Khu Vực ETFB",
+            "description": "Chỉ số Tốc Độ Đi Bộ của bạn trong Escape Tsunami For Brainrots đóng vai trò là người gác cổng cho các khu vực bản đồ nâng cao.",
+            "speedCheck": {
+                "label": "Kiểm Tra Tốc Độ:",
+                "text": "Bạn không thể nhảy qua các khoảng trống để đến các khu vực ETFB mới nếu không đủ tốc độ."
+            },
+            "tiers": {
+                "label": "Cấp Độ Khu Vực:",
+                "text": "Các khu vực Escape Tsunami For Brainrots: Normal -> Sandy -> Toxic -> Void."
+            },
+            "difficulty": {
+                "label": "Độ Khó:",
+                "text": "Các khu vực ETFB sau này có parkour phức tạp và thời gian di chuyển của sóng thần nhanh hơn."
+            }
+        },
+        "rebirth": {
+            "title": "Hệ Thống Tái Sinh ETFB",
+            "description": "Đặt lại căn cứ và chỉ số Escape Tsunami For Brainrots của bạn để nhận hệ số nhân vĩnh viễn. Cần thiết cho tiến trình cuối game ETFB.",
+            "trigger": {
+                "label": "Kích Hoạt:",
+                "text": "Có sẵn khi bạn đạt các mốc Tiền mặt cụ thể trong Escape Tsunami For Brainrots."
+            },
+            "keep": {
+                "label": "Giữ Lại:",
+                "text": "Bạn giữ lại các Brainrot Thiên Thể/Thần Thánh trong ETFB (kiểm tra ghi chú cập nhật cụ thể)."
+            },
+            "gain": {
+                "label": "Nhận Được:",
+                "text": "Vĩnh viễn +% Thu nhập và hệ số nhân Tốc độ trong Escape Tsunami For Brainrots."
+            }
+        }
+    },
+    "Encyclopedia": {
+        "title": "Bách Khoa Toàn Thư Brainrots",
+        "description": "Cơ sở dữ liệu về chỉ số, độ hiếm và giá trị. Biết những gì bạn đang tìm kiếm.",
+        "searchPlaceholder": "Tìm kiếm Brainrots...",
+        "filterLabel": "Lọc theo độ hiếm",
+        "allRarities": "Tất Cả Độ Hiếm",
+        "foundResults": "Tìm thấy {count} kết quả cho \"{term}\"",
+        "noResults": "Không tìm thấy brainrot nào",
+        "noResultsHint": "Hãy thử điều chỉnh tìm kiếm hoặc bộ lọc của bạn",
+        "viewFullDatabase": "Xem Toàn Bộ Cơ Sở Dữ Liệu (142 Mục)",
+        "labels": {
+            "income": "Thu Nhập:",
+            "spawnZone": "Khu Vực Xuất Hiện:",
+            "bestUse": "Sử Dụng Tốt Nhất:"
+        },
+        "bestUseValues": {
+            "starter": "Người Mới Bắt Đầu",
+            "endGame": "Cuối Game"
+        },
+        "rarities": {
+            "Common": "Phổ Biến",
+            "Uncommon": "Không Phổ Biến",
+            "Rare": "Hiếm",
+            "Legendary": "Huyền Thoại",
+            "Celestial": "Thiên Thể",
+            "Divine": "Thần Thánh"
+        },
+        "zones": {
+            "Normal": "Bình Thường",
+            "Sandy": "Cát",
+            "Toxic": "Độc Hại",
+            "Void": "Hư Không",
+            "Event": "Sự Kiện"
+        }
+    },
+    "Progression": {
+        "upgradesTitle": "Ưu Tiên Căn Cứ & Nâng Cấp",
+        "zonesTitle": "Khu Vực & Tiến Trình",
+        "priorityLabel": "Ưu tiên:",
+        "avgLootLabel": "Loot TB:",
+        "upgrades": {
+            "walkSpeed": {
+                "title": "Tốc Độ Đi Bộ",
+                "priority": "Cao",
+                "description": "Chỉ số quan trọng nhất. Tăng tốc độ di chuyển cho phép truy cập vào các khu vực mới."
+            },
+            "jumpPower": {
+                "title": "Sức Mạnh Nhảy",
+                "priority": "Trung Bình",
+                "description": "Cần thiết cho độ cao trong các khu vực Toxic và Void. Đừng bỏ qua chỉ số này."
+            },
+            "bagCapacity": {
+                "title": "Dung Lượng Túi",
+                "priority": "Cao (Giữa Game)",
+                "description": "Tăng số lượng Brainrot bạn có thể mang theo mỗi lần chạy. Tối đa hóa điều này để farm AFK."
+            }
+        },
+        "strategyTitle": "Lời Khuyên Chiến Lược",
+        "strategy": {
+            "early": {
+                "phase": "Đầu Game",
+                "title": "Tốc Độ Đi Bộ",
+                "description": "Đổ 80% tiền mặt của bạn vào {stat}. Bỏ qua Thẩm Mỹ Căn Cứ. Mục tiêu của bạn là đến Sandy Shores càng sớm càng tốt."
+            },
+            "mid": {
+                "phase": "Giữa Game",
+                "title": "Dung Lượng Túi",
+                "description": "Cân bằng {stat} với Tái Sinh. Nếu một lần Tái Sinh mất ít hơn 10 phút để phục hồi, hãy làm điều đó."
+            }
+        },
+        "zones": {
+            "normal": {
+                "name": "Khu Vực Bình Thường",
+                "speedReq": "0 - 25 Speed",
+                "description": "Khu vực bắt đầu. Địa hình bằng phẳng, điểm an toàn dễ dàng. Tốt cho việc học thời gian sóng.",
+                "loot": "Phổ Biến / Không Phổ Biến"
+            },
+            "sandy": {
+                "name": "Sandy Shores",
+                "speedReq": "26 - 55 Speed",
+                "description": "Giới thiệu về độ cao. Sử dụng cây dừa và đá để sống sót. Sóng di chuyển nhanh hơn một chút ở đây.",
+                "loot": "Không Phổ Biến / Hiếm"
+            },
+            "void": {
+                "name": "The Void",
+                "speedReq": "85+ Speed",
+                "description": "Môi trường tối đen với các nền tảng neon. Một lần trượt chân đồng nghĩa với cái chết. Rủi ro cao nhất, phần thưởng cao nhất.",
+                "loot": "Huyền Thoại / Thiên Thể"
+            }
+        }
+    },
+    "EventsSecrets": {
+        "title": "Sự Kiện & Bí Mật",
+        "description": "Khám phá các khu vực ẩn, sự kiện giới hạn thời gian và mã đặc biệt để thúc đẩy tiến trình của bạn.",
+        "radioactive": {
+            "title": "Sự Kiện Phóng Xạ",
+            "description": "Mỗi 30-45 phút, một cơn Sóng Thần Phóng Xạ ập đến. Nước chuyển sang màu xanh lá cây và {coins} xuất hiện.",
+            "coins": "Đồng Xu Phóng Xạ",
+            "bombTitle": "Mục Tiêu A: Gỡ Bom",
+            "bombDesc": "Tìm các quả bom xuất hiện ở các khu vực ngẫu nhiên. Tương tác để gỡ bom và nhận phần thưởng xu lớn.",
+            "tunnelTitle": "Mục Tiêu B: Đường Hầm Xanh",
+            "tunnelDesc": "Một đường hầm bí mật mở ra ở Sandy Shores trong sự kiện. Hoàn thành parkour bên trong để nhận Brainrot Phóng Xạ độc quyền."
+        },
+        "secrets": {
+            "title": "Bí Mật & Khu Vực Ẩn",
+            "description": "Bản đồ đầy những bức tường ảo ảnh và nền tảng vô hình. Chúng tôi đã biên soạn một hướng dẫn đầy đủ với ảnh chụp màn hình.",
+            "waterfall": "Phòng Bí Mật phía sau thác nước (Sảnh)",
+            "ladder": "Thang vô hình trong Void Zone",
+            "viewAll": "Xem Tất Cả Các Địa Điểm Bí Mật"
+        },
+        "codes": {
+            "title": "Mã Đang Hoạt Động",
+            "expiresSoon": "Sắp hết hạn",
+            "active": "Đang hoạt động",
+            "redeemHint": "Để đổi mã: Mở menu > Cài đặt > Biểu tượng Chim Xanh. Mã phân biệt chữ hoa chữ thường!"
+        }
+    },
+    "ToolsScripts": {
+        "toolsTitle": "Công Cụ Tối Ưu Hóa",
+        "tools": {
+            "income": {
+                "title": "Máy Tính Thu Nhập",
+                "description": "Nhập đội hình Brainrot hiện tại của bạn để xem CPS (Tiền Mỗi Giây) chính xác và thời gian đến lần nâng cấp tiếp theo."
+            },
+            "rebirth": {
+                "title": "Lập Kế Hoạch Tái Sinh",
+                "description": "Bạn có nên tái sinh ngay bây giờ không? Thuật toán của chúng tôi tính toán xem mức tăng hệ số nhân có lớn hơn chi phí đặt lại hay không."
+            },
+            "speed": {
+                "title": "Lập Kế Hoạch Tốc Độ",
+                "description": "Tính toán chính xác số tiền bạn cần để đạt giới hạn tốc độ cho các Khu Vực cụ thể."
+            }
+        },
+        "disclaimer": {
+            "title": "Lưu Ý Về Script & Executor",
+            "intro": "Chúng tôi hiểu rằng nhiều người chơi tìm kiếm các script {autoFarm}, {autoCollect}, hoặc {teleport} để cày cuốc hiệu quả. Mặc dù các script phổ biến trong cộng đồng ETFB, hãy lưu ý:",
+            "autoFarm": "Tự Động Farm",
+            "autoCollect": "Tự Động Thu Thập",
+            "teleport": "Dịch Chuyển Tức Thời",
+            "accountSafety": {
+                "label": "An Toàn Tài Khoản:",
+                "text": "Sử dụng executor của bên thứ ba có thể dẫn đến việc tài khoản bị cấm hoặc bị đánh cắp cookie."
+            },
+            "malwareRisk": {
+                "label": "Rủi Ro Phần Mềm Độc Hại:",
+                "text": "Không bao giờ tải xuống các tệp `.exe` tự nhận là script. Chỉ sao chép văn bản thô (Lua) từ các nguồn đáng tin cậy như Pastebin hoặc GitHub."
+            },
+            "ourStance": {
+                "label": "Quan Điểm Của Chúng Tôi:",
+                "text": "ETFB.com là một Wiki giáo dục. Chúng tôi không lưu trữ, phân phối hoặc xác minh bất kỳ tệp script nào. Chúng tôi cung cấp dữ liệu trò chơi để giúp bạn chơi một cách hợp pháp."
+            },
+            "warning": "Chơi công bằng, giữ an toàn."
+        }
+    }
+}

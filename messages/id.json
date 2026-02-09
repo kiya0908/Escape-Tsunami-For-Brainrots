@@ -1,0 +1,427 @@
+{
+    "Metadata": {
+        "title": "Escape Tsunami For Brainrots | Wiki & Alat Tidak Resmi",
+        "description": "Escape tsunami for brainrots: sumber daya survival terbaik! Kuasai gelombang berbahaya, optimalkan pendapatan base untuk pertumbuhan, temukan radioactive coin di peta.",
+        "siteName": "ETFB Wiki"
+    },
+    "Navbar": {
+        "guide": "Panduan",
+        "brainrots": "Brainrots",
+        "progression": "Progresi",
+        "events": "Event",
+        "tools": "Alat",
+        "getCodes": "Dapatkan Kode",
+        "guideTitle": "Navigasi ke Panduan Pemula ETFB",
+        "brainrotsTitle": "Lihat Database Ensiklopedia Brainrots",
+        "progressionTitle": "Cek Upgrade Base & Zone Unlock ETFB",
+        "eventsTitle": "Temukan Event, Rahasia & Kode Aktif",
+        "toolsTitle": "Akses Kalkulator & Alat Optimasi ETFB",
+        "codesTitle": "Dapatkan Kode ETFB Aktif",
+        "themeLight": "Terang",
+        "themeDark": "Gelap",
+        "themeSystem": "Sistem"
+    },
+    "Hero": {
+        "badge": "Diperbarui untuk Patch Tsunami Terbaru",
+        "title": "Escape Tsunami For Brainrots",
+        "subtitle": "Wiki, Panduan & Alat Terlengkap",
+        "description": "Hub sumber daya Escape Tsunami For Brainrots terlengkap Anda. Kuasai mekanik survival tsunami, optimalkan pendapatan base di ETFB, temukan koleksi brainrot langka, dan dominasi leaderboard. Panduan definitif Escape Tsunami For Brainrots untuk pemula dan pro.",
+        "browseBrainrots": "Jelajahi Brainrots",
+        "startGuide": "Mulai Panduan",
+        "features": {
+            "encyclopedia": {
+                "title": "Ensiklopedia Brainrot ETFB",
+                "description": "Database Escape Tsunami For Brainrots lengkap dengan statistik detail, kelangkaan, dan lokasi spawn untuk setiap brainrot collectible."
+            },
+            "survival": {
+                "title": "Strategi Survival Tsunami",
+                "description": "Kuasai Escape Tsunami For Brainrots dengan strategi langkah demi langkah untuk bertahan dari gelombang, menemukan titik aman, dan memaksimalkan efisiensi farming Anda."
+            },
+            "tools": {
+                "title": "Alat Optimasi ETFB",
+                "description": "Kalkulator Escape Tsunami For Brainrots untuk merencanakan upgrade, memperkirakan pendapatan, dan menentukan waktu rebirth untuk progresi maksimal."
+            }
+        }
+    },
+    "IntroSection": {
+        "title": "Apa itu Escape Tsunami For Brainrots?",
+        "description1": "Escape Tsunami For Brainrots (juga dikenal sebagai ETFB) adalah game survival dan koleksi bertaruhan tinggi di Roblox. Pengalaman menegangkan ini menggabungkan keseruan berlari menghindari gelombang elemental besar dengan kesenangan kacau mengumpulkan karakter meme \"brainrot\". ETFB bukan hanya simulator lari—ini adalah tycoon pembangunan base yang dibungkus dalam paket survival bencana.",
+        "description2": "Loop gameplay inti sangat adiktif: Anda memasuki zona berbahaya untuk mengais Brainrots sambil menghindari tsunami mematikan berkala. Berhasil membawa item-item ini kembali ke base Anda menghasilkan pendapatan pasif. Anda menggunakan uang itu untuk meningkatkan kecepatan, tinggi lompatan, dan kapasitas tas, memungkinkan Anda menjelajah ke zona yang lebih dalam dan berbahaya untuk loot yang lebih langka.",
+        "gameplayLoop": {
+            "title": "Loop Gameplay",
+            "subtitle": "Kuasai 5 langkah penting ini",
+            "step": "Langkah",
+            "steps": {
+                "1": {
+                    "text": "Lari & Eksplorasi",
+                    "desc": "Navigasi melalui zona berbahaya yang dipenuhi Brainrots tersebar"
+                },
+                "2": {
+                    "text": "Hindari Tsunami",
+                    "desc": "Bertahan dari gelombang elemental berkala yang menyapu peta"
+                },
+                "3": {
+                    "text": "Kumpulkan Loot",
+                    "desc": "Kumpulkan Brainrots dan kembalikan dengan aman ke base Anda"
+                },
+                "4": {
+                    "text": "Upgrade Base",
+                    "desc": "Gunakan pendapatan untuk meningkatkan stats dan kapasitas tas"
+                },
+                "5": {
+                    "text": "Rebirth",
+                    "desc": "Reset untuk multiplier permanen dan akses zona baru"
+                }
+            }
+        },
+        "features": {
+            "title": "Fitur Utama",
+            "subtitle": "Apa yang membuat ETFB unik",
+            "items": {
+                "tsunami": {
+                    "title": "Sistem Tsunami Dinamis",
+                    "description": "Berbagai gelombang elemental—Api, Es, Petir, dan lainnya—masing-masing dengan perilaku unik. Kuasai timing dan pola untuk bertahan dari setiap pertemuan. Zona lebih tinggi membawa tsunami lebih mematikan dengan frekuensi lebih cepat."
+                },
+                "base": {
+                    "title": "Base Building Tycoon",
+                    "description": "Bangun dan upgrade sanctuary pribadi Anda. Setiap Brainrot yang ditempatkan menghasilkan pendapatan pasif, menciptakan sistem progresi yang memuaskan. Strategikan koleksi Anda untuk memaksimalkan profit per menit."
+                },
+                "character": {
+                    "title": "Progresi Karakter",
+                    "description": "Upgrade kecepatan gerak, tinggi lompatan, dan kapasitas inventori Anda. Stats ini sangat penting untuk bertahan di zona late-game dan membawa loot berharga. Setiap upgrade membawa Anda lebih dekat ke area terdalam."
+                },
+                "collectibles": {
+                    "title": "Koleksi Langka",
+                    "description": "Temukan ratusan karakter Brainrot mulai dari Common hingga Legendary rarities. Masing-masing memiliki pola spawn dan nilai unik. Lengkapi koleksi Anda dan pamerkan temuan terlangka Anda."
+                },
+                "rebirth": {
+                    "title": "Sistem Rebirth",
+                    "description": "Ketika Anda sudah menguasai zona saat ini, rebirth untuk multiplier permanen. Setiap rebirth membuka akses ke area baru yang lebih berbahaya dengan hadiah yang lebih baik secara eksponensial. Siklus tidak pernah berakhir."
+                },
+                "events": {
+                    "title": "Event Komunitas",
+                    "description": "Ikuti event khusus dengan Brainrot drops eksklusif. Kesempatan waktu terbatas untuk mendapatkan koleksi langka yang tidak ditemukan di tempat lain. Tetap terhubung untuk tidak melewatkan momen ini."
+                }
+            }
+        },
+        "video": {
+            "title": "Tonton & Pelajari",
+            "subtitle": "Lihat gameplay beraksi"
+        }
+    },
+    "FAQ": {
+        "title": "FAQ Escape Tsunami For Brainrots",
+        "items": {
+            "death": {
+                "question": "Apa yang terjadi jika saya mati dalam tsunami di Escape Tsunami For Brainrots?",
+                "answer": "Jika gelombang tsunami mengenai Anda di Escape Tsunami For Brainrots, Anda akan 'ragdoll' dan biasanya mati seketika atau terjebak. Anda akan kehilangan 50% Brainrots yang saat ini ada di tas Anda (bukan yang sudah ada di base ETFB Anda). Selalu deposit sering di Escape Tsunami For Brainrots!"
+            },
+            "rebirth": {
+                "question": "Kapan waktu terbaik untuk melakukan Rebirth pertama saya di ETFB?",
+                "answer": "Kami merekomendasikan menunggu sampai Anda membuka setidaknya Sandy Zone di Escape Tsunami For Brainrots dan memiliki pendapatan stabil sekitar $500/s. Melakukan rebirth ETFB pertama terlalu awal membuat grind kembali ke kecepatan dasar menyakitkan."
+            },
+            "voidWalker": {
+                "question": "Bagaimana cara mendapatkan 'Void Walker' Brainrot di Escape Tsunami For Brainrots?",
+                "answer": "Void Walker adalah brainrot raritas Celestial yang spawn secara eksklusif di Escape Tsunami For Brainrots Void Zone. Ia memiliki 0.5% spawn chance dan biasanya muncul di platform neon tertinggi di ETFB."
+            },
+            "codes": {
+                "question": "Mengapa kode Escape Tsunami For Brainrots saya tidak berfungsi?",
+                "answer": "Kode di Escape Tsunami For Brainrots (ETFB) case-sensitive. Pastikan Anda mengkapitalisasi huruf persis seperti yang ditampilkan. Juga, kode ETFB sering kedaluwarsa setelah update game besar, jadi cek bagian 'Active Codes' kami untuk kode Escape Tsunami For Brainrots terbaru."
+            },
+            "vip": {
+                "question": "Apakah ada area VIP di Escape Tsunami For Brainrots?",
+                "answer": "Ya, Escape Tsunami For Brainrots VIP gamepass membuka lounge khusus dengan 2x Passive Income boost dan spot spawn Rare brainrot yang dijamin. Ini worth jika Anda berencana bermain ETFB jangka panjang."
+            }
+        }
+    },
+    "Footer": {
+        "description": "Wiki tidak resmi terlengkap untuk Escape Tsunami For Brainrots. Panduan, alat, dan strategi untuk membantu Anda bertahan dari gelombang.",
+        "quickLinks": {
+            "title": "Link Cepat",
+            "beginnerGuide": "Panduan Pemula",
+            "brainrotsDatabase": "Database Brainrots",
+            "activeCodes": "Kode Aktif",
+            "faq": "FAQ"
+        },
+        "resources": {
+            "title": "Sumber Daya",
+            "playOnRoblox": "Main di Roblox",
+            "calculators": "Kalkulator & Alat",
+            "upgradeGuides": "Panduan Upgrade",
+            "gameMechanics": "Mekanik Game"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy": "Kebijakan Privasi",
+            "terms": "Ketentuan Penggunaan",
+            "about": "Tentang Kami"
+        },
+        "copyright": "ETFB Wiki. Seluruh hak cipta dilindungi.",
+        "disclaimer": "Tidak berafiliasi dengan Roblox Corporation atau pengembang game. Ini adalah sumber daya komunitas buatan fans."
+    },
+    "LanguageSwitcher": {
+        "label": "Bahasa",
+        "languages": {
+            "en": "English",
+            "fil": "Filipino",
+            "vi": "Tiếng Việt",
+            "id": "Bahasa Indonesia",
+            "de": "Deutsch"
+        }
+    },
+    "Mechanics": {
+        "title": "Cara Kerja Escape Tsunami For Brainrots",
+        "subtitle": "Panduan Mekanik Inti ETFB",
+        "description": "Memahami sistem dasar Escape Tsunami For Brainrots adalah kunci untuk bertahan hidup di Void Zone dan memaksimalkan Cash Per Second (CPS) Anda di ETFB.",
+        "controls": {
+            "title": "Kontrol & Pergerakan ETFB",
+            "description": "Menguasai pergerakan di Escape Tsunami For Brainrots adalah pertahanan utama Anda. Mesin fisika ETFB memungkinkan lompatan berbasis momentum.",
+            "sprint": {
+                "label": "Manajemen Sprint:",
+                "text": "Jangan habiskan stamina sebelum melompat di Escape Tsunami For Brainrots."
+            },
+            "camera": {
+                "label": "Sudut Kamera:",
+                "text": "Selalu jaga titik spawn gelombang tsunami dalam pandangan periferal Anda."
+            },
+            "slide": {
+                "label": "Slide/Dash:",
+                "text": "Gunakan sliding (C atau Ctrl) untuk mendapatkan kecepatan menuruni lereng di ETFB."
+            }
+        },
+        "tsunami": {
+            "title": "Sistem Tsunami ETFB",
+            "description": "Gelombang tsunami di Escape Tsunami For Brainrots muncul berdasarkan timer. Semakin jauh Anda dari spawn, semakin sulit untuk melarikan diri dari tsunami.",
+            "risk": {
+                "label": "Risiko vs Hadiah:",
+                "text": "Brainrots bernilai tinggi di ETFB berada di zona dalam, jauh dari keamanan."
+            },
+            "impact": {
+                "label": "Dampak:",
+                "text": "Terkena tsunami membuat Anda ragdoll dan menjatuhkan 50% dari loot tas saat ini."
+            },
+            "warning": {
+                "label": "Tanda Peringatan:",
+                "text": "Dengarkan sirene dan perhatikan air yang surut di Escape Tsunami For Brainrots."
+            }
+        },
+        "safeSpots": {
+            "title": "Tempat Aman ETFB",
+            "description": "Tidak semua dataran tinggi aman di Escape Tsunami For Brainrots. Anda perlu mengidentifikasi Zona Aman yang ditunjuk untuk bertahan dari tsunami.",
+            "platforms": {
+                "label": "Platform Tinggi:",
+                "text": "Cari penanda neon hijau yang bersinar di ETFB."
+            },
+            "bunkers": {
+                "label": "Lubang & Bunker:",
+                "text": "Beberapa zona Escape Tsunami For Brainrots memiliki tempat perlindungan bawah tanah."
+            },
+            "timing": {
+                "label": "Waktu:",
+                "text": "Anda biasanya memiliki 15-20 detik setelah sirene sebelum dampak tsunami."
+            }
+        },
+        "brainrots": {
+            "title": "Brainrots & Base di ETFB",
+            "description": "Base Anda di Escape Tsunami For Brainrots adalah penghasil pendapatan pasif Anda. Brainrots yang dikumpulkan \"disetorkan\" di sini.",
+            "slots": {
+                "label": "Slot:",
+                "text": "Anda memiliki slot terbatas di ETFB. Pajang item brainrot dengan kelangkaan tertinggi Anda."
+            },
+            "collection": {
+                "label": "Koleksi:",
+                "text": "Ambil brainrots di Escape Tsunami For Brainrots dengan berjalan di atasnya."
+            },
+            "deposit": {
+                "label": "Setor:",
+                "text": "Kembali ke base untuk mengosongkan tas dan menyimpan uang di ETFB."
+            }
+        },
+        "speedZones": {
+            "title": "Kecepatan & Zona ETFB",
+            "description": "Stat Walk Speed Anda di Escape Tsunami For Brainrots bertindak sebagai penjaga gerbang untuk area peta lanjutan.",
+            "speedCheck": {
+                "label": "Cek Kecepatan:",
+                "text": "Anda tidak bisa melompati celah ke zona ETFB baru tanpa kecepatan yang cukup."
+            },
+            "tiers": {
+                "label": "Tier Zona:",
+                "text": "Zona Escape Tsunami For Brainrots: Normal -> Sandy -> Toxic -> Void."
+            },
+            "difficulty": {
+                "label": "Kesulitan:",
+                "text": "Zona ETFB selanjutnya memiliki parkour yang kompleks dan waktu perjalanan tsunami yang lebih cepat."
+            }
+        },
+        "rebirth": {
+            "title": "Sistem Rebirth ETFB",
+            "description": "Reset base dan statistik Escape Tsunami For Brainrots Anda untuk pengali permanen. Penting untuk progresi late-game ETFB.",
+            "trigger": {
+                "label": "Pemicu:",
+                "text": "Tersedia setelah Anda mencapai milestone Uang tertentu di Escape Tsunami For Brainrots."
+            },
+            "keep": {
+                "label": "Simpan:",
+                "text": "Anda menyimpan Celestial/Divine Brainrots di ETFB (cek catatan update spesifik)."
+            },
+            "gain": {
+                "label": "Dapatkan:",
+                "text": "Permanen +% Pendapatan dan pengali Kecepatan di Escape Tsunami For Brainrots."
+            }
+        }
+    },
+    "Encyclopedia": {
+        "title": "Ensiklopedia Brainrots",
+        "description": "Database statistik, kelangkaan, dan nilai. Ketahui apa yang Anda cari.",
+        "searchPlaceholder": "Cari Brainrots...",
+        "filterLabel": "Filter berdasarkan kelangkaan",
+        "allRarities": "Semua Kelangkaan",
+        "foundResults": "Ditemukan {count} hasil untuk \"{term}\"",
+        "noResults": "Tidak ada brainrots ditemukan",
+        "noResultsHint": "Coba sesuaikan pencarian atau filter Anda",
+        "viewFullDatabase": "Lihat Database Lengkap (142 Item)",
+        "labels": {
+            "income": "Pendapatan:",
+            "spawnZone": "Zona Spawn:",
+            "bestUse": "Penggunaan Terbaik:"
+        },
+        "bestUseValues": {
+            "starter": "Pemula",
+            "endGame": "Akhir Game"
+        },
+        "rarities": {
+            "Common": "Biasa",
+            "Uncommon": "Tidak Biasa",
+            "Rare": "Langka",
+            "Legendary": "Legendaris",
+            "Celestial": "Celestial",
+            "Divine": "Divine"
+        },
+        "zones": {
+            "Normal": "Normal",
+            "Sandy": "Sandy",
+            "Toxic": "Toxic",
+            "Void": "Void",
+            "Event": "Event"
+        }
+    },
+    "Progression": {
+        "upgradesTitle": "Prioritas Base & Upgrade",
+        "zonesTitle": "Zona & Progresi",
+        "priorityLabel": "Pri:",
+        "avgLootLabel": "Rata-rata Loot:",
+        "upgrades": {
+            "walkSpeed": {
+                "title": "Kecepatan Jalan",
+                "priority": "Tinggi",
+                "description": "Stat paling kritis. Meningkatkan kecepatan gerakan memungkinkan akses ke zona baru."
+            },
+            "jumpPower": {
+                "title": "Kekuatan Lompat",
+                "priority": "Sedang",
+                "description": "Penting untuk vertikalitas di zona Toxic dan Void. Jangan abaikan ini."
+            },
+            "bagCapacity": {
+                "title": "Kapasitas Tas",
+                "priority": "Tinggi (Mid-Game)",
+                "description": "Meningkatkan berapa banyak Brainrots yang bisa Anda bawa per run. Maksimalkan ini untuk farming AFK."
+            }
+        },
+        "strategyTitle": "Saran Strategis",
+        "strategy": {
+            "early": {
+                "phase": "Early Game",
+                "title": "Kecepatan Jalan",
+                "description": "Tuangkan 80% uang Anda ke {stat}. Abaikan Estetika Base. Tujuan Anda adalah mencapai Sandy Shores secepat mungkin."
+            },
+            "mid": {
+                "phase": "Mid Game",
+                "title": "Kapasitas Tas",
+                "description": "Seimbangkan {stat} dengan Rebirth. Jika Rebirth memakan waktu kurang dari 10 menit untuk pulih, lakukan."
+            }
+        },
+        "zones": {
+            "normal": {
+                "name": "Zona Normal",
+                "speedReq": "0 - 25 Speed",
+                "description": "Area awal. Medan datar, tempat aman mudah. Bagus untuk memelajari waktu gelombang.",
+                "loot": "Biasa / Tidak Biasa"
+            },
+            "sandy": {
+                "name": "Sandy Shores",
+                "speedReq": "26 - 55 Speed",
+                "description": "Pengantar vertikalitas. Gunakan pohon palem dan batu untuk bertahan. Gelombang bergerak sedikit lebih cepat di sini.",
+                "loot": "Tidak Biasa / Langka"
+            },
+            "void": {
+                "name": "The Void",
+                "speedReq": "85+ Speed",
+                "description": "Lingkungan gelap gulita dengan platform neon. Satu kesalahan berarti kematian. Risiko tertinggi, hadiah tertinggi.",
+                "loot": "Legendaris / Celestial"
+            }
+        }
+    },
+    "EventsSecrets": {
+        "title": "Event & Rahasia",
+        "description": "Temukan area tersembunyi, event waktu terbatas, dan kode khusus untuk meningkatkan kemajuan Anda.",
+        "radioactive": {
+            "title": "Event Radioaktif",
+            "description": "Setiap 30-45 menit, Tsunami Radioaktif menyerang. Air berubah menjadi hijau, dan {coins} muncul.",
+            "coins": "Koin Radioaktif",
+            "bombTitle": "Tujuan A: Penjinakan Bom",
+            "bombDesc": "Temukan bom yang muncul di zona acak. Interaksi untuk menjinakkan demi hadiah koin besar.",
+            "tunnelTitle": "Tujuan B: Terowongan Hijau",
+            "tunnelDesc": "Sebuah terowongan rahasia terbuka di Sandy Shores selama event. Selesaikan parkour di dalam untuk Brainrots Radioaktif eksklusif."
+        },
+        "secrets": {
+            "title": "Rahasia & Area Tersembunyi",
+            "description": "Peta penuh dengan dinding ilusi dan platform tak terlihat. Kami telah menyusun panduan lengkap dengan tangkapan layar.",
+            "waterfall": "Ruang Rahasia di balik air terjun (Lobby)",
+            "ladder": "Tangga tak terlihat di Void Zone",
+            "viewAll": "Lihat Semua Lokasi Rahasia"
+        },
+        "codes": {
+            "title": "Kode Aktif",
+            "expiresSoon": "Segera berakhir",
+            "active": "Aktif",
+            "redeemHint": "Untuk menukarkan: Buka menu > Pengaturan > Ikon Burung Biru. Kode sensitif huruf besar-kecil!"
+        }
+    },
+    "ToolsScripts": {
+        "toolsTitle": "Alat Optimasi",
+        "tools": {
+            "income": {
+                "title": "Kalkulator Pendapatan",
+                "description": "Masukkan lineup Brainrot Anda saat ini untuk melihat CPS (Cash Per Second) yang tepat dan waktu ke upgrade berikutnya."
+            },
+            "rebirth": {
+                "title": "Perencana Rebirth",
+                "description": "Haruskah Anda rebirth sekarang? Algoritma kami menghitung apakah kenaikan multiplier lebih besar dari biaya reset."
+            },
+            "speed": {
+                "title": "Perencana Kecepatan",
+                "description": "Hitung tepat berapa banyak uang yang Anda butuhkan untuk mencapai batas kecepatan untuk Zona tertentu."
+            }
+        },
+        "disclaimer": {
+            "title": "Catatan tentang Skrip & Eksekutor",
+            "intro": "Kami mengerti bahwa banyak pemain mencari skrip {autoFarm}, {autoCollect}, atau {teleport} untuk grinding secara efisien. Meskipun skrip populer di komunitas ETFB, harap diingat:",
+            "autoFarm": "Auto Farm",
+            "autoCollect": "Auto Collect",
+            "teleport": "Teleport",
+            "accountSafety": {
+                "label": "Keamanan Akun:",
+                "text": "Menggunakan eksekutor pihak ketiga dapat menyebabkan akun dibanned atau cookie dicuri."
+            },
+            "malwareRisk": {
+                "label": "Risiko Malware:",
+                "text": "Jangan pernah mengunduh file `.exe` yang mengklaim sebagai skrip. Hanya salin teks mentah (Lua) dari sumber terpercaya seperti Pastebin atau GitHub."
+            },
+            "ourStance": {
+                "label": "Posisi Kami:",
+                "text": "ETFB.com adalah Wiki pendidikan. Kami tidak menghosting, mendistribusikan, atau memverifikasi file skrip apa pun. Kami menyediakan data game untuk membantu Anda bermain secara sah."
+            },
+            "warning": "Main adil, tetap aman."
+        }
+    }
+}

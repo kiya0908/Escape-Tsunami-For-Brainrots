@@ -1,5 +1,8 @@
+"use client";
+
 import React from 'react';
 import { Calculator, Zap, TrendingUp, AlertTriangle } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 // 工具卡片组件
 const ToolCard = ({ icon, title, desc }: { icon: React.ReactNode, title: string, desc: string }) => (
@@ -13,27 +16,29 @@ const ToolCard = ({ icon, title, desc }: { icon: React.ReactNode, title: string,
 );
 
 const ToolsScripts: React.FC = () => {
+    const t = useTranslations('ToolsScripts');
+
     return (
         <div className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             {/* 工具部分 */}
             <div className="mb-20">
-                <h2 className="text-3xl font-bold text-text-main mb-8">Optimization Tools</h2>
+                <h2 className="text-3xl font-bold text-text-main mb-8">{t('toolsTitle')}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <ToolCard
                         icon={<Calculator />}
-                        title="Income Calculator"
-                        desc="Input your current Brainrot lineup to see your exact CPS (Cash Per Second) and time to next upgrade."
+                        title={t('tools.income.title')}
+                        desc={t('tools.income.description')}
                     />
                     <ToolCard
                         icon={<TrendingUp />}
-                        title="Rebirth Planner"
-                        desc="Should you rebirth now? Our algorithm calculates if the multiplier gain outweighs the reset cost."
+                        title={t('tools.rebirth.title')}
+                        desc={t('tools.rebirth.description')}
                     />
                     <ToolCard
                         icon={<Zap />}
-                        title="Speed Planner"
-                        desc="Calculate exactly how much money you need to reach the speed cap for specific Zones."
+                        title={t('tools.speed.title')}
+                        desc={t('tools.speed.description')}
                     />
                 </div>
             </div>
@@ -45,17 +50,21 @@ const ToolsScripts: React.FC = () => {
                         <AlertTriangle className="w-8 h-8 text-neon-danger" />
                     </div>
                     <div>
-                        <h2 className="text-2xl font-bold text-text-main mb-4">A Note on Scripts & Executors</h2>
+                        <h2 className="text-2xl font-bold text-text-main mb-4">{t('disclaimer.title')}</h2>
                         <div className="prose prose-invert max-w-none text-text-muted text-base leading-relaxed">
                             <p className="mb-4">
-                                We understand that many players look for <strong>Auto Farm</strong>, <strong>Auto Collect</strong>, or <strong>Teleport</strong> scripts to grind efficiently. While scripts are popular in the ETFB community, please be aware:
+                                {t.rich('disclaimer.intro', {
+                                    autoFarm: () => <strong>{t('disclaimer.autoFarm')}</strong>,
+                                    autoCollect: () => <strong>{t('disclaimer.autoCollect')}</strong>,
+                                    teleport: () => <strong>{t('disclaimer.teleport')}</strong>
+                                })}
                             </p>
                             <ul className="list-disc pl-4 space-y-2 mb-4">
-                                <li><strong className="text-text-main">Account Safety:</strong> Using third-party executors can lead to account bans or stolen cookies.</li>
-                                <li><strong className="text-text-main">Malware Risk:</strong> Never download `.exe` files claiming to be scripts. Only copy raw text (Lua) from trusted sources like Pastebin or GitHub.</li>
-                                <li><strong className="text-text-main">Our Stance:</strong> ETFB.com is an educational Wiki. We do not host, distribute, or verify any script files. We provide game data to help you play legitimately.</li>
+                                <li><strong className="text-text-main">{t('disclaimer.accountSafety.label')}</strong> {t('disclaimer.accountSafety.text')}</li>
+                                <li><strong className="text-text-main">{t('disclaimer.malwareRisk.label')}</strong> {t('disclaimer.malwareRisk.text')}</li>
+                                <li><strong className="text-text-main">{t('disclaimer.ourStance.label')}</strong> {t('disclaimer.ourStance.text')}</li>
                             </ul>
-                            <p className="font-semibold text-neon-danger">Play fair, stay safe.</p>
+                            <p className="font-semibold text-neon-danger">{t('disclaimer.warning')}</p>
                         </div>
                     </div>
                 </div>
