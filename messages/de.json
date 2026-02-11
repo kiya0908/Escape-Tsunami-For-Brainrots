@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "title": "Escape Tsunami For Brainrots | Inoffizielles Wiki & Tools",
+        "title": "Escape Tsunami For Brainrots | Ultimatives Wiki, Guides & Tools",
         "description": "Escape tsunami for brainrots: die ultimative Überlebensressource! Meistere die gefährlichen Wellen, optimiere das Basiseinkommen für Wachstum, finde radioaktive Münzen auf der Karte.",
         "siteName": "ETFB Wiki"
     },
@@ -15,7 +15,7 @@
         "brainrotsTitle": "Brainrots Enzyklopädie-Datenbank anzeigen",
         "progressionTitle": "ETFB Basis-Upgrades & Zone-Freischaltungen prüfen",
         "eventsTitle": "Events, Geheimnisse & aktive Codes entdecken",
-        "toolsTitle": "Auf ETFB Rechner & Optimierungstools zugreifen",
+        "toolsTitle": "Auf ETFB Rechner & Optimierungstrier zugreifen",
         "codesTitle": "Aktive ETFB Codes holen",
         "themeLight": "Hell",
         "themeDark": "Dunkel",
@@ -25,7 +25,7 @@
         "badge": "Aktualisiert für den neuesten Tsunami-Patch",
         "title": "Escape Tsunami For Brainrots",
         "subtitle": "Ultimatives Wiki, Guides & Tools",
-        "description": "Dein ultimativer Escape Tsunami For Brainrots Ressourcen-Hub. Meistere Tsunami-Überlebensmechaniken, optimiere das Basiseinkommen in ETFB, finde seltene Brainrot-Sammelstücke und dominiere die Ranglisten. Der definitive Escape Tsunami For Brainrots Guide für Anfänger und Profis.",
+        "description": "Dein ultimativer Escape Tsunami For Brainrots Ressourcen-Hub. Meistere Tsunami-Überlebensmechaniken, i-optimize das Basiseinkommen in ETFB, finde seltene Brainrot-Sammelstücke und dominahierst die Ranglisten. Der definitive Escape Tsunami For Brainrots Guide für Anfänger und Profis.",
         "browseBrainrots": "Brainrots durchsuchen",
         "startGuide": "Guide starten",
         "features": {
@@ -45,8 +45,8 @@
     },
     "IntroSection": {
         "title": "Was ist Escape Tsunami For Brainrots?",
-        "description1": "Escape Tsunami For Brainrots (auch bekannt als ETFB) ist ein hochriskantes Überlebens- und Sammelspiel auf Roblox. Diese spannende Erfahrung verbindet die Aufregung, massiven elementaren Wellen zu entkommen, mit dem chaotischen Spaß, \"Brainrot\"-Meme-Charaktere zu sammeln. ETFB ist nicht nur ein Lauf-Simulator – es ist ein Basenbau-Tycoon, verpackt in einem Katastrophen-Überlebenspaket.",
-        "description2": "Die Kern-Gameplay-Schleife macht süchtig: Du betrittst gefährliche Zonen, um nach Brainrots zu suchen, während du periodischen, tödlichen Tsunamis ausweichst. Das erfolgreiche Zurückbringen dieser Gegenstände zu deiner Basis generiert passives Einkommen. Du verwendest dieses Geld, um deine Geschwindigkeit, Sprunghöhe und Taschenkapazität zu verbessern, was dir ermöglicht, in tiefere, gefährlichere Zonen für seltenere Beute vorzudringen.",
+        "description1": "Escape Tsunami For Brainrots (auch bekannt als ETFB) ist ein hochriskantes Überlebens- und Sammelspiel auf Roblox. Diese spannende Erfahrung verbindet die Aufregung, massiven elementaren Wellen zu entkommen, kasama mit dem chaotischen Spaß, \"Brainrot\"-Meme-Charaktere zu sammeln. ETFB ist nicht nur ein Lauf-Simulator – es ist ein Basenbau-Tycoon, verpackt in einem Katastrophen-Überlebenspaket.",
+        "description2": "Die Kern-Gameplay-Schleife macht süchtig: Du betrittst gefährliche Zonen, um nach Brainrots zu suchen, während du periodischen, tödlichen Tsunamis ausweichst. Das erfolgreiche Zurückbringen dieser Gegenstände zu deiner Basis generiert passives Einkommen. Du verwendest dieses Geld, um deine Geschwindigkeit, Sprunghöhe und Taschenkapazität zu verbessern, was dir ermöglicht, in tiefer, gefährlichere Zonen für seltenere Beute vorzudringen.",
         "gameplayLoop": {
             "title": "Gameplay-Schleife",
             "subtitle": "Meistere diese 5 wesentlichen Schritte",
@@ -76,7 +76,7 @@
         },
         "features": {
             "title": "Hauptfunktionen",
-            "subtitle": "Was ETFB einzigartig macht",
+            "subtitle": "Was macht ETFB einzigartig",
             "items": {
                 "tsunami": {
                     "title": "Dynamisches Tsunami-System",
@@ -255,7 +255,7 @@
         },
         "rebirth": {
             "title": "ETFB Wiedergeburt-System",
-            "description": "Setze deine Escape Tsunami For Brainrots Basis und Stats für permanente Multiplikatoren zurück. Essentiell für ETFB Endgame-Progression.",
+            "description": "Setze deine Escape Tsunami For Brainrots Basis und Stats für permanente Multiplikatoren zurück. Essentiell für ETFB Endgame-Fortschritt.",
             "trigger": {
                 "label": "Auslöser:",
                 "text": "Verfügbar, sobald du bestimmte Cash-Meilensteine in Escape Tsunami For Brainrots erreichst."
@@ -279,7 +279,7 @@
         "foundResults": "{count} Ergebnis(se) gefunden für \"{term}\"",
         "noResults": "Keine Brainrots gefunden",
         "noResultsHint": "Versuche, deine Suche oder deinen Filter anzupassen",
-        "viewFullDatabase": "Vollständige Datenbank anzeigen (142 Items)",
+        "viewFullDatabase": "Vollständige Preistabelle anzeigen (100+ Brainrot Daten)",
         "labels": {
             "income": "Einkommen:",
             "spawnZone": "Spawn-Zone:",
@@ -319,7 +319,7 @@
             "jumpPower": {
                 "title": "Sprungkraft",
                 "priority": "Mittel",
-                "description": "Essentiell für Vertikalität in den Toxic und Void Zonen. Vernachlässige dies nicht."
+                "description": "Essentiell für Vertikalität in den Toxic und Void Zonenon. Vernachlässige dies nicht."
             },
             "bagCapacity": {
                 "title": "Taschenkapazität",
@@ -371,7 +371,7 @@
             "bombTitle": "Ziel A: Bombenentschärfung",
             "bombDesc": "Finde Bomben, die in zufälligen Zonen spawnen. Interagiere zum Entschärfen für massive Münzen-Belohnungen.",
             "tunnelTitle": "Ziel B: Der Grüne Tunnel",
-            "tunnelDesc": "Ein geheimer Tunnel öffnet sich in der Sandy Zone während des Events. Absolviere Parkour darin für exklusive Radioaktive Brainrots."
+            "tunnelDesc": "Ein geheimer Tunnel öffnet sich in der Sandy Zone während des Events. Absolviere Parkour darin für exklusive Radioaktive Brainrotsen."
         },
         "secrets": {
             "title": "Geheimnisse & Versteckte Bereiche",
@@ -384,7 +384,7 @@
             "title": "Aktive Codes",
             "expiresSoon": "Läuft bald ab",
             "active": "Aktiv",
-            "redeemHint": "Zum Einlösen: Öffne Menü > Einstellungen > Blaues Vogel-Symbol. Codes unterscheiden Groß-/Kleinschreibung!"
+            "redeemHint": "Zum Einlösen: Öffne Menü > Einstellungen > Blauer Vogel-Symbol. Codes unterscheiden Groß-/Kleinschreibung!"
         }
     },
     "ToolsScripts": {
@@ -422,6 +422,40 @@
                 "text": "ETFB.com ist ein Bildungs-Wiki. Wir hosten, verteilen oder verifizieren keine Script-Dateien. Wir stellen Spieldaten bereit, um dir legitimes Spielen zu ermöglichen."
             },
             "warning": "Spiele fair, bleib sicher."
+        }
+    },
+    "Brainrots": {
+        "back": "Zurück zur Startseite",
+        "title": "Escape Tsunami For Brainrots | Brainrots Preistabelle",
+        "H1title":"Brainrots Preistabelle",
+        "description": "Vollständige Datenbank mit Statistiken, Seltenheit und Einkommenswerten für alle 100+ Brainrot-Sammelgegenstände.",
+        "seoTitle": "Vollständige Brainrots-Daten & Preisinformationen",
+        "seoDescription1": "Durchsuchen Sie die vollständige Datenbank aller Brainrot-Sammelgegenstände in Escape Tsunami For Brainrots. Finden Sie detaillierte Informationen zu Seltenheit, Einkommenswerten, Spawn-Zonen und optimalen Nutzungsstrategien.",
+        "seoDescription2": "Ob Anfänger auf der Suche nach Starter-Gegenständen oder Veteran-Spieler auf der Jagd nach Celestial- und Divine-Seltenheiten, diese umfassende Tabelle bietet alle Daten, die Sie zur Optimierung Ihres Basiseinkommens benötigen.",
+        "seoDescription3": "Jeder Brainrot ist nach Seltenheits-Stufe (Common, Uncommon, Rare, Epic, Legendary, Mythical, Cosmic, Secret, Celestial) kategorisiert mit genauen Einkommens-pro-Sekunde-Werten und empfohlenen Spawn-Zonen für maximale Farming-Effizienz.",
+        "searchPlaceholder": "Brainrots suchen...",
+        "filterLabel": "Nach Seltenheit filtern",
+        "allRarities": "Alle Seltenheiten",
+        "foundResults": "{count} Ergebnis(se) gefunden für \"{term}\"",
+        "noResults": "Keine Brainrots gefunden",
+        "noResultsHint": "Versuchen Sie, Ihre Suche oder Ihren Filter anzupassen",
+        "table": {
+            "name": "Name",
+            "rarity": "Seltenheit",
+            "income": "Einkommen",
+            "zone": "Spawn-Zone",
+            "bestUse": "Beste Nutzung"
+        },
+        "rarities": {
+            "Common": "Gewöhnlich",
+            "Uncommon": "Ungewöhnlich",
+            "Rare": "Selten",
+            "Epic": "Episch",
+            "Legendary": "Legendär",
+            "Mythical": "Mythical",
+            "Cosmic": "Kosmisch",
+            "Secret": "Geheim",
+            "Celestial": "Himmlisch"
         }
     }
 }

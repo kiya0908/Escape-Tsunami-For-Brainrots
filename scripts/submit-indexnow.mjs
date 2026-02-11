@@ -48,7 +48,7 @@ const req = https.request(options, (res) => {
     });
 
     res.on('end', () => {
-        if (res.statusCode === 200) {
+        if (res.statusCode === 200 || res.statusCode === 202) {
             console.log('\n✅ Successfully submitted URLs to IndexNow!');
         } else {
             console.log('\n❌ Submission failed. Please check the error details.');

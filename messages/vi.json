@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "title": "Escape Tsunami For Brainrots | Wiki & Công cụ không chính thức",
+        "title": "Escape Tsunami For Brainrots | Wiki, Hướng dẫn & Công cụ Tối ưu",
         "description": "Escape tsunami for brainrots: tài nguyên sinh tồn tối ưu! Làm chủ những con sóng nguy hiểm, tối ưu hóa thu nhập base để phát triển, tìm radioactive coin trên bản đồ.",
         "siteName": "ETFB Wiki"
     },
@@ -279,7 +279,7 @@
         "foundResults": "Tìm thấy {count} kết quả cho \"{term}\"",
         "noResults": "Không tìm thấy brainrot nào",
         "noResultsHint": "Hãy thử điều chỉnh tìm kiếm hoặc bộ lọc của bạn",
-        "viewFullDatabase": "Xem Toàn Bộ Cơ Sở Dữ Liệu (142 Mục)",
+        "viewFullDatabase": "Xem Bảng Giá Hoàn Chỉ (100+ Dữ liệu Brainrot)",
         "labels": {
             "income": "Thu Nhập:",
             "spawnZone": "Khu Vực Xuất Hiện:",
@@ -422,6 +422,37 @@
                 "text": "ETFB.com là một Wiki giáo dục. Chúng tôi không lưu trữ, phân phối hoặc xác minh bất kỳ tệp script nào. Chúng tôi cung cấp dữ liệu trò chơi để giúp bạn chơi một cách hợp pháp."
             },
             "warning": "Chơi công bằng, giữ an toàn."
+        }
+    },
+    "Brainrots": {
+        "backHome": "Quay lại Trang chủ",
+        "title": "Escape Tsunami For Brainrots | Bảng Giá Brainrots",
+        "H1title": "Bảng Giá Brainrots",
+        "description": "Database hoàn chỉnh với thống kê, độ hiếm và giá trị thu nhập cho tất cả 100+ vật phẩm sưu tầm Brainrot.",
+        "seoTitle": "Dữ Liệu Brainrots Hoàn Chỉ & Thông Tin Giá",
+        "seoDescription1": "Duyệt qua database hoàn chỉnh tất cả các vật phẩm sưu tầm Brainrot trong Escape Tsunami For Brainrots. Tìm thông tin chi tiết về độ hiếm, giá trị thu nhập, vùng spawn và chiến lược sử dụng tối ưu.",
+        "seoDescription2": "Dù bạn là người mới tìm kiếm vật phẩm khởi đầu hay người chơi kỳ cạn săn lùng độ hiếm Celestial và Divine, bảng toàn diện này cung cấp tất cả dữ liệu bạn cần để tối ưu hóa thu nhập căn cứ của bạn.",
+        "seoDescription3": "Mỗi Brainrot được phân loại theo cấp độ hiếm (Common, Uncommon, Rare, Legendary, Celestial, Divine) với giá trị thu nhập mỗi giây chính xác và vùng spawn được khuyến nghị để đạt hiệu suất farming tối đa.",
+        "searchPlaceholder": "Tìm kiếm Brainrots...",
+        "filterLabel": "Lọc theo độ hiếm",
+        "allRarities": "Tất Cả Độ Hiếm",
+        "foundResults": "Tìm thấy {count} kết quả cho \"{term}\"",
+        "noResults": "Không tìm thấy brainrot nào",
+        "noResultsHint": "Thử điều chỉnh tìm kiếm hoặc bộ lọc của bạn",
+        "table": {
+            "name": "Tên",
+            "rarity": "Độ Hiếm",
+            "income": "Thu Nhập",
+            "zone": "Vùng Xuất Hiện",
+            "bestUse": "Sử Dụng Tốt Nhất"
+        },
+        "rarities": {
+            "Common": "Phổ Biến",
+            "Uncommon": "Không Phổ Biến",
+            "Rare": "Hiếm",
+            "Legendary": "Huyền Thoại",
+            "Celestial": "Thiên Thể",
+            "Divine": "Thần Thánh"
         }
     }
 }

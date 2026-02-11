@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Search, Filter, Dog, Cat, Sparkles, Skull, Ghost, Crown } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 // Brainrot 数据类型
 interface Brainrot {
@@ -139,9 +140,12 @@ const Encyclopedia: React.FC = () => {
                 )}
 
                 <div className="mt-8 text-center">
-                    <button className="px-6 py-2 border border-neon-cyan text-neon-cyan rounded-lg hover:bg-neon-cyan/10 transition-colors text-sm font-semibold">
+                    <Link
+                        href="/brainrots"
+                        className="px-6 py-2 border border-neon-cyan text-neon-cyan rounded-lg hover:bg-neon-cyan/10 transition-colors text-sm font-semibold inline-block"
+                    >
                         {t('viewFullDatabase')}
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

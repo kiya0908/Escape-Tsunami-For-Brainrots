@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "Escape Tsunami For Brainrots | Unofficial Wiki & Tools",
+    "title": "Escape Tsunami For Brainrots | Ultimate Wiki, Guides & Tools",
     "description": "Escape tsunami for brainrots: the ultimate survival resource! Master the treacherous waves, optimize base income for growth, find radioactive coin in the map.",
     "siteName": "ETFB Wiki"
   },
@@ -279,7 +279,7 @@
     "foundResults": "Found {count} result(s) for \"{term}\"",
     "noResults": "No brainrots found",
     "noResultsHint": "Try adjusting your search or filter",
-    "viewFullDatabase": "View Full Database (142 Items)",
+    "viewFullDatabase": "View Full Price Table (100+ Brainrot Data)",
     "labels": {
       "income": "Income:",
       "spawnZone": "Spawn Zone:",
@@ -422,6 +422,40 @@
         "text": "ETFB.com is an educational Wiki. We do not host, distribute, or verify any script files. We provide game data to help you play legitimately."
       },
       "warning": "Play fair, stay safe."
+    }
+  },
+  "Brainrots": {
+    "backHome": "Back to Home",
+    "title": "Escape Tsunami For Brainrots | Brainrots Price Table",
+    "H1title": "Brainrots Price Table",
+    "description": "Complete database with stats, rarity, and income values for all 100+ Brainrot collectibles.",
+    "seoTitle": "Complete Brainrots Data & Price Information",
+    "seoDescription1": "Browse the complete database of all Brainrot collectibles in Escape Tsunami For Brainrots. Find detailed information about rarity, income values, spawn zones, and optimal usage strategies.",
+    "seoDescription2": "Whether you're a beginner looking for starter items or a veteran player hunting for Celestial and Divine rarities, this comprehensive table provides all the data you need to optimize your base income.",
+    "seoDescription3": "Each Brainrot is categorized by rarity tier (Common, Uncommon, Rare, Legendary, Celestial, Divine) with accurate income per second values and recommended spawn zones for maximum farming efficiency.",
+    "searchPlaceholder": "Search Brainrots...",
+    "filterLabel": "Filter by rarity",
+    "allRarities": "All Rarities",
+    "foundResults": "Found {count} result(s) for \"{term}\"",
+    "noResults": "No brainrots found",
+    "noResultsHint": "Try adjusting your search or filter",
+    "table": {
+      "name": "Name",
+      "rarity": "Rarity",
+      "income": "Income",
+      "zone": "Spawn Zone",
+      "bestUse": "Best Use"
+    },
+    "rarities": {
+      "Common": "Common",
+      "Uncommon": "Uncommon",
+      "Rare": "Rare",
+      "Epic": "Epic",
+      "Legendary": "Legendary",
+      "Mythical": "Mythical",
+      "Cosmic": "Cosmic",
+      "Secret": "Secret",
+      "Celestial": "Celestial"
     }
   }
 }

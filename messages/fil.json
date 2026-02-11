@@ -1,6 +1,6 @@
 {
     "Metadata": {
-        "title": "Escape Tsunami For Brainrots | Hindi-opisyal na Wiki at Tools",
+        "title": "Escape Tsunami For Brainrots | Ultimate Wiki, Guides at Tools",
         "description": "Escape tsunami para sa brainrots: ang pangunahing survival resource! Master ang mapanganib na mga alon, i-optimize ang base income para sa paglago, hanapin ang radioactive coin sa mapa.",
         "siteName": "ETFB Wiki"
     },
@@ -279,7 +279,7 @@
         "foundResults": "Nakahanap ng {count} (na) resulta para sa \"{term}\"",
         "noResults": "Walang brainrots na nahanap",
         "noResultsHint": "Subukang ayusin ang iyong paghahanap o filter",
-        "viewFullDatabase": "Tingnan ang Buong Database (142 Items)",
+        "viewFullDatabase": "Tingnan ang Buong Price Table (100+ Brainrot Data)",
         "labels": {
             "income": "Kita:",
             "spawnZone": "Spawn Zone:",
@@ -422,6 +422,37 @@
                 "text": "Ang ETFB.com ay isang pang-edukasyon na Wiki. Hindi kami nagho-host, namamahagi, o nagve-verify ng anumang script files. Nagbibigay kami ng game data upang matulungan kang maglaro nang lehitimo."
             },
             "warning": "Maglaro ng patas, manatiling ligtas."
+        }
+    },
+    "Brainrots": {
+        "backHome": "Bumalik sa Home",
+        "title": "Escape Tsunami For Brainrots | Talaan ng Presyo ng Brainrots",
+        "H1title":"Talaan ng Presyo ng Brainrots",
+        "description": "Kumpletong database na may mga stats, rarity, at value ng income para sa lahat ng 100+ Brainrot collectibles.",
+        "seoTitle": "Kumpletong Data ng Brainrots at Impormasyon sa Presyo",
+        "seoDescription1": "Mag-browse sa kumpletong database ng lahat ng Brainrot collectibles sa Escape Tsunami For Brainrots. Makahanap ng detalyadong impormasyon tungkol sa rarity, value ng income, mga spawn zones, at optimal na mga estratehiya sa paggamit.",
+        "seoDescription2": "Kahit baguhan kang naghahanap ng mga starter items o beteranong player na naghahuli ng Celestial at Divine rarities, itong kumpletong table ay nagbibigay ng lahat ng data na kailangan mo para ma-optimize ang iyong base income.",
+        "seoDescription3": "Bawat Brainrot ay naka-kategorize ayon sa tier ng rarity (Common, Uncommon, Rare, Legendary, Celestial, Divine) na may eksaktong value ng income per second at mga inirerekomendang spawn zones para sa maximum na efficiency sa pagfarming.",
+        "searchPlaceholder": "Maghanap ng Brainrots...",
+        "filterLabel": "I-filter ayon sa rarity",
+        "allRarities": "Lahat ng Rarity",
+        "foundResults": "Nakahanap ng {count} (na) resulta para sa \"{term}\"",
+        "noResults": "Walang brainrots na nahanap",
+        "noResultsHint": "Subukang ayusin ang iyong paghahanap o filter",
+        "table": {
+            "name": "Pangalan",
+            "rarity": "Rarity",
+            "income": "Income",
+            "zone": "Spawn Zone",
+            "bestUse": "Pinakamahusay na Gamit"
+        },
+        "rarities": {
+            "Common": "Common",
+            "Uncommon": "Uncommon",
+            "Rare": "Rare",
+            "Legendary": "Legendary",
+            "Celestial": "Celestial",
+            "Divine": "Divine"
         }
     }
 }

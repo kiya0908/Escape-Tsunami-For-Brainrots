@@ -1,11 +1,8 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
-import { Waves, Sun, Moon, Monitor } from 'lucide-react';
-import Link from 'next/link';
+import { useState, useEffect } from 'react';
 import Footer from '@/components/Footer';
-
-type Theme = 'light' | 'dark' | 'system';
+import Navbar, { Theme } from '@/components/Navbar';
 
 export default function PrivacyPolicy() {
   const [theme, setTheme] = useState<Theme>('light');
@@ -40,47 +37,12 @@ export default function PrivacyPolicy() {
     return () => mediaQuery.removeEventListener('change', handleSystemChange);
   }, [theme]);
 
-  const ThemeIcon = () => {
-    switch (theme) {
-      case 'light': return <Sun className="h-5 w-5" />;
-      case 'dark': return <Moon className="h-5 w-5" />;
-      case 'system': return <Monitor className="h-5 w-5" />;
-    }
-  };
-
   return (
     <div className="min-h-screen flex flex-col transition-colors duration-300">
-      {/* Simple Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md border-b border-text-main/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center gap-2">
-              <Waves className="h-8 w-8 text-neon-cyan" />
-              <span className="font-bold text-xl tracking-tight text-text-main">ETFB<span className="text-neon-cyan">.space</span></span>
-            </Link>
-
-            <div className="flex items-center gap-4">
-              <Link href="/" className="text-text-muted hover:text-neon-cyan transition-colors text-sm">
-                Back Home
-              </Link>
-
-              <button
-                onClick={() => {
-                  if (theme === 'system') setTheme('light');
-                  else if (theme === 'light') setTheme('dark');
-                  else setTheme('system');
-                }}
-                className="p-2 rounded-md text-text-muted hover:text-text-main hover:bg-surfaceHighlight/50"
-              >
-                <ThemeIcon />
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Navbar activeSection="hero" theme={theme} setTheme={setTheme} />
 
       {/* Main Content */}
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
             <h1 className="text-4xl font-bold text-text-main mb-4">Privacy Policy</h1>
