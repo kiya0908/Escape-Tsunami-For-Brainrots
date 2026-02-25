@@ -4,6 +4,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -150,6 +151,15 @@ export default async function LocaleLayout({
                     {children}
                 </NextIntlClientProvider>
                 <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
+                {/* Google AdSense 广告脚本 */}
+                {process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID && (
+                    <Script
+                        async
+                        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID}`}
+                        crossOrigin="anonymous"
+                        strategy="afterInteractive"
+                    />
+                )}
             </body>
         </html>
     );
